@@ -1,0 +1,43 @@
+/* demo page styles */
+body {
+    background:#eee;
+    margin:0;
+    padding:0;
+}
+.example {
+    position:relative;
+    background-color:#fff;
+    width:700px;
+    overflow:hidden;
+    border:1px #000 solid;
+    margin:20px auto;
+    padding:20px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+div.thumbwrapper {
+    background: none repeat scroll 0 0 #F0EEE0;
+    border: 1px solid #AFAB8E;
+    float: left;
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+    width: 202px;
+}
+.control, .lcontrol {
+    float: right;
+    display: block;
+    margin: 0 5px;
+    font-size: 9pt;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black !important;
+}
+.lcontrol {
+    float:left;margin-right:50px;
+}
+.lcontrol .small {
+    font-weight: normal; text-transform: none;
+}

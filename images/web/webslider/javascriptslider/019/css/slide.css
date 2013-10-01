@@ -1,0 +1,19 @@
+html,body,div,dl,dt,dd,span,a{margin:0; padding:0;}/*如果在你的所应用的CSS代码中，如果属性已经被重置，可以删除此项*/
+a{text-decoration:none;}
+#content a,#content img{position:absolute;}
+#content img{display:none; border:0;}
+#content dt,#content dt #slideTitle,#content dt .pageNum{position:absolute;}
+#content dt{left:0; bottom:0; width:100%; height:45px;}
+#content dt #slideTitle,#content dt .pageNum{color:#fff; font-weight:700;}
+#content dt #slideTitle{display:block; font-size:14px; top:18px; left:15px; height:22px;}
+#content dt .pageNum{display:block; top:15px; width:17px; font-size:12px; height:19px; text-align:center; line-height:22px; cursor:pointer; background:#65860a; position:absolute;}
+#content dt .pageNum:hover,#content dt .pageNumHover{background:url(../images/pageNumBg.gif) no-repeat;}
+/*从此至上所有的代码不要修改，否则可能会导致失效*/
+#content{margin:0 auto; overflow:hidden; position:relative;}/*此项可修改，但是不要修改overflow和position这两种属性，幻灯片的宽度高度请到slide.Config.js下配置*/
+
+/*当您将此幻灯片嵌入你的xHTML中的时候，以下代码不要复制：以下代码用于定义作者信息*/
+div{margin:20px auto; font-size:14px; width:800px;}
+div p{line-height:22px;}
+div a{color:#900; text-decoration:underline;}
+div a:hover{color:#080; text-decoration:none;}
+#alert{color:#f00; font-weight:900;}

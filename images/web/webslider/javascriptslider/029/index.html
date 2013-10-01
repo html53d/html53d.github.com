@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0013)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>前端开发网（HTML6GAME） - html5，flash游戏的分享 - web前端开发资讯.交流站点</title>
+
+<meta name="keywords" content="原创作品,教程,代码,html5游戏,flash游戏,web前端开发,javascript,rpg,网页游戏,手机游戏,程序源码,flash幻灯片,webgame展示,游戏开发" />
+<meta name="description" content="前端开发网（www.html6game.com），专注于html5和flash游戏，为程序员提供web开发教程。另外提供国内一流的flash和js幻灯片，在这里有最近的资讯和最前沿的开发技术！" />
+
+<LINK href="css/1.css" type=text/css 
+rel=stylesheet>
+
+</HEAD>
+<BODY>
+
+<DIV class=Hr_1 id=num style="CURSOR: hand">
+<DIV class=Hr_11><A class=act id=a0 onmouseover=clearAuto(); onclick=Mea(0); 
+onmouseout=setAuto() href="#" target=_self>QQ仙境</A> <A 
+class=nor id=a1 onmouseover=clearAuto(); onclick=Mea(1); onmouseout=setAuto() 
+href="#" target=_self>永恒之塔</A> <A class=nor id=a2 
+onmouseover=clearAuto(); onclick=Mea(2); onmouseout=setAuto() 
+href="#" target=_self>黑道圣徒2 </A><A class=nor id=a3 
+onmouseover=clearAuto(); onclick=Mea(3); onmouseout=setAuto() 
+href="#" target=_self>墨香</A> <A class="nor lan12ia" 
+id=a4 onmouseover=clearAuto(); onclick=Mea(4); onmouseout=setAuto() 
+href="#" target=_self>仙剑OL</A> </DIV><A 
+href="http://www.html6game.com" target="_blank"><IMG src="images/001.jpg" name="pc_0" 
+width=317 height=160 id=pc_0 
+style="DISPLAY: block"></A> <A href="http://www.html6game.com" target="_blank"><IMG src="images/002.jpg" name="pc_1" 
+width=317 height=160 id=pc_1 
+style="DISPLAY: none"></A> <A href="http://www.html6game.com" target="_blank"><IMG src="images/003.jpg" name="pc_2" 
+width=317 height=160 id=pc_2 
+style="DISPLAY: none"></A> <A href="http://www.html6game.com" target="_blank"><IMG src="images/004.jpg" name="pc_3" 
+width=317 height=160 id=pc_3 
+style="DISPLAY: none"></A> <A href="http://www.html6game.com" target="_blank"><IMG src="images/005.jpg" name="pc_4" 
+width=317 height=160 id=pc_4 
+style="DISPLAY: none"></A> </DIV>
+
+
+
+
+
+
+
+
+<SCRIPT>
+
+
+var n=0;
+var showNum = document.getElementById("num");
+function Mea(value){
+	n=value;
+	setBg(value);
+	plays(value);
+	}
+function setBg(value){
+	for(var i=0;i<5;i++){
+	   if(value==i){
+	     document.getElementById("a"+value).className='act';      
+			}	else{	
+			 document.getElementById("a"+i).className='nor';
+			}  
+	} 
+}
+function plays(value){ 
+		 for(i=0;i<5;i++){
+			  if(i==value){			  
+			  	document.getElementById("pc_"+value).style.display="block";
+			  	//alert(document.getElementById("pc_"+value).style.display)
+			  }else{
+			    document.getElementById("pc_"+i).style.display="none";			    
+			  }			
+		}	
+}
+
+
+function clearAuto(){clearInterval(autoStart)}
+function setAuto(){autoStart=setInterval("auto(n)", 3000)}
+function auto(){
+	n++;
+	if(n>4)n=0;
+	Mea(n);
+} 
+function sub(){
+	n--;
+	if(n<0)n=4;
+	Mea(n);
+} 
+setAuto(); 
+</SCRIPT>
+
+</BODY></HTML>

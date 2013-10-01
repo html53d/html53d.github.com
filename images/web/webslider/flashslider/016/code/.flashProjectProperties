@@ -1,0 +1,41 @@
+﻿<projectDescription>
+	<id>1238637846607</id>
+	<name>slideshow</name>
+	<asVersion>0</asVersion>
+	<boundTemplate>file:///C|/Documents and Settings/Administrator/Local Settings/Application Data/Adobe/Flash CS4/en/Configuration/Project/templates/boundClass_as3.as</boundTemplate>
+	<classTemplate>file:///C|/Documents and Settings/Administrator/Local Settings/Application Data/Adobe/Flash CS4/en/Configuration/Project/templates/standardClass_as3.as</classTemplate>
+	<classPath>.</classPath>
+	<defaultApp/>
+	<rootURI>G:\web_temp\web\html\web_designer\幻灯片\flash幻灯片\其它幻灯\133\CustomButtons\code</rootURI>
+	<flexSDK/>
+	<sources editable="false"/>
+	<libraries editable="false"/>
+	<externalLibraries editable="false"/>
+	<compileList editable="false">
+		<uri label="slideshow.fla">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/slideshow.fla</uri>
+	</compileList>
+	<recentFiles editable="false">
+		<uri label="EventDispatcher.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/events/EventDispatcher.as</uri>
+		<uri label="Transition.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Transition.as</uri>
+		<uri label="TransitionManager.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/TransitionManager.as</uri>
+		<uri label="OnEnterFrameBeacon.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/OnEnterFrameBeacon.as</uri>
+		<uri label="BroadcasterMX.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/BroadcasterMX.as</uri>
+		<uri label="Tween.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Tween.as</uri>
+		<uri label="Fly.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Fly.as</uri>
+		<uri label="Fade.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Fade.as</uri>
+		<uri label="Elastic.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/easing/Elastic.as</uri>
+		<uri label="Strong.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/easing/Strong.as</uri>
+		<uri label="Back.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/easing/Back.as</uri>
+		<uri label="Wipe.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Wipe.as</uri>
+		<uri label="Bounce.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/easing/Bounce.as</uri>
+		<uri label="Regular.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/easing/Regular.as</uri>
+		<uri label="Photo.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Photo.as</uri>
+		<uri label="Zoom.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Zoom.as</uri>
+		<uri label="None.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/easing/None.as</uri>
+		<uri label="PixelDissolve.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/PixelDissolve.as</uri>
+		<uri label="Squeeze.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Squeeze.as</uri>
+		<uri label="Blinds.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Blinds.as</uri>
+		<uri label="Iris.as">file:///G|/web_temp/web/html/web_designer/幻灯片/flash幻灯片/其它幻灯/133/CustomButtons/code/mx/transitions/Iris.as</uri>
+	</recentFiles>
+	<locations editable="false"/>
+</projectDescription>

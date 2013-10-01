@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gbk"?><banner_swf>
+	<fixedbn img="images/main_mini.jpg" alpha_num="0">
+		<fixedlink posx="0" posy="0" scalex="1510" scaley="800" bnurl="javascript:open_window('http://www.html6game.com/')" bntarget="_self" bntitle="html6game"></fixedlink>
+		<fixedlink posx="0" posy="80" scalex="1510" scaley="1150" bnurl="http://www.html6game.com/" bntarget="_self" bntitle="html6game"></fixedlink>
+	</fixedbn>
+
+	<banner img="images/1.jpg" bnurl="http://www.html6game.com/" bntarget="_blank" bntitle="中秋快乐！"></banner>
+	<banner img="images/2.jpg" bnurl="http://www.html6game.com/" bntarget="_blank" bntitle="父爱无言，真爱送父亲"></banner>
+	<banner img="images/3.jpg" bnurl="http://www.html6game.com/" bntarget="_blank" bntitle="让我们为灾区人民送上自己的祝福吧！"></banner>
+	<banner img="images/4.jpg" bnurl="http://www.html6game.com/" bntarget="_blank" bntitle="情动五月，感情母恩"></banner>
+	<banner img="images/5.jpg" bnurl="http://www.html6game.com/" bntarget="_blank" bntitle="诚聘版主"></banner>
+	<banner img="images/6.jpg" bnurl="http://www.html6game.com/" bntarget="_blank" bntitle="幸运发帖"></banner>
+	<banner img="images/7.jpg" bnurl="http://www.html6game.com/" bntarget="_blank" bntitle="电影"></banner>
+	<banner img="images/8.jpg" bnurl="http://www.html6game.com/" bntarget="_blank" bntitle="食在潍坊"></banner>
+</banner_swf><!-- Published at 2008-09-13 05:24:12, Powered by CMSware 2.8.5 Free -->

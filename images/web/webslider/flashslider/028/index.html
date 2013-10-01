@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0013)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>前端开发网（HTML6GAME） - html5，flash游戏的分享 - web前端开发资讯.交流站点</title>
+
+<meta name="keywords" content="原创作品,教程,代码,html5游戏,flash游戏,web前端开发,javascript,rpg,网页游戏,手机游戏,程序源码,flash幻灯片,webgame展示,游戏开发" />
+<meta name="description" content="前端开发网（www.html6game.com），专注于html5和flash游戏，为程序员提供web开发教程。另外提供国内一流的flash和js幻灯片，在这里有最近的资讯和最前沿的开发技术！" />
+
+<STYLE type=text/css>
+.hotL {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #000; PADDING-BOTTOM: 0px; WIDTH: 400px; PADDING-TOP: 5px; HEIGHT: 333px
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+</STYLE>
+<SCRIPT language=javascript src="js/swfobject.js" 
+type=text/javascript></SCRIPT>
+
+
+<body>
+
+<div class=hotL>
+<div class=pl5 id=FocusObj></div>
+<SCRIPT type=text/javascript>
+                var focus_width=400;
+                var focus_height=310;
+                var text_height=20;
+                var swf_height=focus_height + text_height;
+                var pics="images/01.jpg|images/02.jpg|images/03.jpg|images/04.jpg|images/05.jpg|images/06.jpg";
+                var links="http://www.html6game.com/|http://www.html6game.com/|http://www.html6game.com/|http://www.html6game.com/|http://www.html6game.com/|http://www.html6game.com/";
+                var texts="网友设计 多媒体娱乐新秀魅族M8精致图赏|细数屏幕王升级之处 夏普SH9020C三色图|超爽触摸屏超越iPhone 魅族M8网友设计图|VGA触屏 灵图导航 智能机HTO G990图赏|我的影像大不同 C905随身拍手机|轻轻浅唱斑驳忧伤 寂寞圣诞夜的一抹红色";
+                var fo = new SWFObject("images/pix.swf", "_FocusObj", focus_width, swf_height, "7","F6F8FA");
+    			fo.addVariable("pics", pics);
+    			fo.addVariable("links", links);
+    			fo.addVariable("texts", texts); 
+    			fo.addVariable("borderwidth", focus_width);
+    			fo.addVariable("borderheight", focus_height);
+    			fo.addVariable("textheight", text_height);
+    			fo.addVariable("border_color", "0x000000"); 
+    			fo.addVariable("fontsize", "14"); 
+    			fo.addVariable("fontcolor", "5d5d5d");
+    			fo.addVariable("is_border", "");
+    			fo.addVariable("is_text", "1");
+    			fo.addParam("wmode", "opaque");
+    			fo.write("FocusObj");
+            </SCRIPT>
+</div>
+
+</body></html>

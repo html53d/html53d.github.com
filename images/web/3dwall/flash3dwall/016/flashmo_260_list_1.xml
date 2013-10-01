@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+	
+	<config 
+		enable_auto_play="true"
+		auto_play_duration="2.5"
+		auto_align="true"
+		folder="images/"
+		tween_duration="0.5"
+		photo_border_size="4"
+		photo_border_color="0xFFFFFF"
+		photo_alpha="true"
+		x_spacing="120"
+		y_spacing="0"
+		side_photo_count="3">
+	</config>
+	
+	<photo>
+		<filename>flashmo_480x300_01.jpg</filename>
+		<description>Nunc commodo, magna pharetra semper vehicula, dui ligula feugiat elit, et euismod nunc orci ut libero.</description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_02.jpg</filename>
+		<description>Praesent mattis varius quam. Vestibulum ullamcorper ipsum nec augue.</description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_03.jpg</filename>
+		<description>Aenean neque dolor, vestibulum ac sodales at, egestas id elit. Aenean quis nulla in enim luctus vehicula nec at neque.</description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_04.jpg</filename>
+		<description>Vivamus ultrices lectus non lorem congue et facilisis urna adipiscing. Suspendisse at pede vel lorem pulvinar laoreet.</description>
+		<url>http://www.flashmo.com/donate</url>
+		<target>_self</target>
+	</photo> 
+	
+	<photo>
+		<filename>flashmo_480x300_05.jpg</filename>
+		<description>Cras sagittis sodales risus. Nulla auctor posuere mollis. Aenean ac velit risus, ut pretium elit.</description>
+		<url>http://www.templatemo.com</url>
+		<target>_parent</target>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_06.jpg</filename>
+		<description>In condimentum neque ac felis vehicula laoreet. Integer semper augue a risus ultrices ut accumsan tortor pellentesque.</description>
+		<url>http://www.templatemo.com/page/1</url>
+		<target>_blank</target>
+	</photo> 
+	
+	<photo>
+		<filename>flashmo_480x300_07.jpg</filename>
+		<description>In nec tellus sed purus ornare faucibus. Duis nulla diam, posuere ac, varius id, ullamcorper sit amet, libero.</description>
+		<url>http://www.flashmo.com/page/1</url>
+		<target>_parent</target>
+	</photo> 
+	
+	<photo>
+		<filename>flashmo_480x300_08.jpg</filename>
+		<description>Vivamus eget neque a libero pellentesque aliquet. Etiam feugiat pharetra malesuada. Integer mattis ligula vitae mi tempus egestas.</description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_09.jpg</filename>
+		<description>Quisque consequat sollicitudin bibendum. Vivamus molestie sodales neque, eget bibendum nisl accumsan at. Donec interdum ornare laoreet.</description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_10.jpg</filename>
+		<description>Etiam varius risus ac neque imperdiet elementum. Fusce eget tellus dui, et accumsan ligula.</description>
+		<url>http://www.flashmo.com</url>
+		<target>_blank</target>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_11.jpg</filename>
+		<description>Cras ut massa lacus. Fusce eget tellus dui, et accumsan ligula. In ac erat mauris, vitae consequat dui. Ut nec euismod massa.</description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_12.jpg</filename>
+		<description>Fusce aliquet, magna ac scelerisque rutrum, urna urna euismod ligula, dignissim rhoncus enim felis nec odio.</description>
+		<url>http://www.flashmo.com/donate</url>
+		<target>_self</target>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_13.jpg</filename>
+		<description>Nunc commodo, magna pharetra semper vehicula, dui ligula feugiat elit.</description>
+	</photo>
+
+	<photo>
+		<filename>flashmo_480x300_14.jpg</filename>
+		<description>Suspendisse at pede vel lorem pulvinar laoreet.</description>
+	</photo>
+
+</photos>

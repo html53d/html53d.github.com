@@ -1,0 +1,38 @@
+﻿body {
+	margin-left: 0px; margin-top: 0px
+}
+@charset "utf-8";
+/* CSS Document */
+/* design by GOGO */
+
+/*通用代码开始*/
+* { font-family: Verdana, Geneva, sans-serif, "微软雅黑", "宋体" ;}
+body { background:#f1f1f1; margin:0; padding:0; color:#464646; font-size:12px; line-height:150%; word-break:break-all; }
+ul { clear:both; list-style-type:none; padding:0; margin:0; }
+li { float:left;}
+img { border:0; }
+a:link, a:visited  { color:#5f5f5f; text-decoration:none; }
+a:hover { text-decoration:underline; color:#2f799c; }
+.pw73-firefox { CLEAR:both; DISPLAY: block;FONT:0px/0px sans-serif; }
+.pw73-text-blue, a.pw73-text-blue { color:#0085e2; }
+.pw73-text-B { font-weight:bold; }
+.pw73-text-14 { font-size:14px; line-height:200%; }
+.pw73-text-right { text-align:right; }
+.pw73-float-right { float:right; }
+.pw73-img-border { border:2px solid #E0E0E0; }
+.pw73-hot {height:28px; line-height:28px; text-align:center; font-size:16px; font-weight:bold; color:#fff; background:#fd9a01; border-bottom:2px #bd5c00 solid;}
+/*通用代码结束*/
+
+/*主体内容开始*/
+.pw73-main { width:899px}
+/*主体内容结束*/
+
+/*题图开始*/
+.pw73-flash-top { height:300px; margin-top:20px; }
+.pw73-flash-down { height:79px; background:url(images/v73_flash_bj.jpg); }
+.pw73-flash-down ul { margin:15px 0 0 110px; }
+.pw73-flash-down li { padding:0 5px; }
+.pw73-flash-down li.dot img { border:2px solid #e3e3e3; }
+.pw73-flash-down li.dot2 img { border:2px #2f799c solid; }
+/*题图结束*/
+

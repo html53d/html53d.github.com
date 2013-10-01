@@ -1,0 +1,34 @@
+﻿html{background:#fff;} body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;} body,button,input,select,textarea{font-size:12px;font-family:\5b8b\4f53,arial;color:#333;} h1,h2,h3,h4,h5,h6{font-size:100%;} address,cite,em{font-style:normal;} ul,ol{list-style:none;}a{text-decoration:none;color:#333;} a:hover{text-decoration:underline;} sup{vertical-align:text-top;} sub{vertical-align:text-bottom;} legend{color:#000;} fieldset,img{border:0;} table{border-collapse:collapse;border-spacing:0;} .clear{clear:both;}
+
+h2{overflow:hidden;zoom:1;}
+.index{width:960px;overflow:hidden;zoom:1;margin:0px 0 0 0px;}
+.index .left{float:left;width:336px;overflow:hidden;}
+.index .left h2{height:33px;background:#2d5faf url(001_o.png) repeat-x;}
+.index .left h2 a{display:block;height:27px;width:102px;margin:6px 0 0 12px;text-indent:-999em;}
+.index .center{float:left;width:403px;overflow:hidden;padding:0 15px;}
+.index .center h2{height:32px;background:url(001_o.png) repeat-x 0 -33px}
+.index .center h2 a{display:block;height:100%;text-indent:-999em;}
+.index .center h2 span{float:right;}
+.index .right{float:right;width:191px;overflow:hidden;}
+.index .right h2{height:32px;background:url(001_o.png) repeat-x 0 -65px}
+.index .right h2 a{display:block;height:100%;text-indent:-999em;}
+
+.ifocus{position:relative;height:297px;border:1px solid #d9d9d9;background:#efefef;}
+.ifocus .focuscont{width:315px;padding-top:10px;padding-left:10px;}
+.ifocus .focuscont li{float:left;}
+.ifocus .focuscont img{display:block;}
+.ifocus .focuscont p{position:relative;margin-top:-21px;font-size:14px;width:297px;font-weight:700;padding-left:18px;}
+.ifocus .focuscont p a{color:#fff;}
+.ifocus .focusmenu{position:absolute;top:239px;left:10px;width:320px;}
+.ifocus .focusmenu ul{overflow:hidden;zoom:1;}
+.ifocus .focusmenu li{float:left;margin-right:1px;cursor:pointer;}
+.ifocus .focusmenu li.curr{border:3px solid #93cdff;width:68px;height:39px;overflow:hidden;}
+.ifocus .focusmenu li.curr img{margin:-3px 0 0 -3px;}
+.ifocus .focusmenu li img{width:74px;height:45px;display:block;float:left;}
+.ifocus .focuscont .slide{margin-top:-28px;height:28px;width:315px;background:#000;filter:Alpha(opacity=60,finishOpacity=0,style=0);opacity:0.6;}
+.focusprev{float:left;width:7px;height:45px;overflow:hidden;background:url(../../images/bg/ico.png) no-repeat -112px -181px;cursor:pointer;}
+.focusprev-hover{background-position:-126px -181px;}
+.focusnext{float:left;width:7px;height:45px;overflow:hidden;background:url(../../images/bg/ico.png) no-repeat -119px -181px;cursor:pointer;}
+.focusnext-hover{background-position:-133px -181px;}
+.menucont{float:left;position:relative;width:300px;height:45px;overflow:hidden;}
+.menucont ul{position:absolute;top:0;left:-74px;width:5000px;}

@@ -1,0 +1,397 @@
+/*	Base CSS for the Loading Icons:
+
+	File Name:		base.css
+	FileURL:		http://demo.alphavega.com/css/loading/css/base.css
+	File Author:	Stephen Giorgi
+	Author email:	stephen.giorgi@alphavega.com | steve@deadlycomputer.com
+	Author URL:		http://www.alphavega.com
+	Description:	This is all the building blocks for the structure of loading-icons.html
+					It has all the interactions and various styles used
+	Notes:			According to: https://developer.mozilla.org/en/CSS/animation-direction (07.30.2012)
+						Firefox does not support animation-direction:reverse
+						This causes the gear icons to not follow
+					According to http://blogs.msdn.com/b/ie/archive/2012/06/25/unprefixed-css3-gradients-in-ie10.aspx (07.30.2012)
+					IE10 (provided with the Windows 8 Release Preview & on), will support unprefixed CSS3 Gradients
+										Keeping with the rest of the files, -ms- prefixes for animations, transforms, & gradients are not used
+					Since they were only supported in IE10, and in the IE 10 Release Preview they are supported unprefixed
+
+	@0 Reset
+		@0.1 Fonts
+	@1. - General
+		@1.1 - Navigation
+			@1.1.1 - Navigation Tabs
+			@1.1.2 - Sub Tab Selection
+	@2. - About
+		@2.1 - Background Swabs
+			@2.1.1 - Selected Swab
+	@3. - Gallery
+		@3.1 - Gallery Nav
+			@3.1.1 - Gallery Nav Hover
+			@3.1.2 - Gallery Nav Checked
+		@3.2 - Gallery Content
+			@3.2.1 - Individual Tabs
+	@10. - Globals
+ */
+
+/*@0 Reset*/
+* { -moz-box-sizing:border-box; box-sizing:border-box; }
+html,body	{ height:100%; }
+ul			{ margin:0 }
+html,body,div,h2,h3,p,a,ul,li		{ margin:0; padding:0; border:none; }
+article,footer,header,nav,section	{ display:block; margin:0; padding:0; border:none; }
+a		{ outline:none; }
+h2, h3 {
+	margin:5px 0;
+	text-align:center;
+	font-family:"Macondo Swash Caps", Verdana, Geneva, sans-serif
+}
+body {
+	font-family:'Istok Web', sans-serif;
+	font-size:16px;
+	color:#2a2a2a;
+}
+	/*@0.1 Fonts*/
+	@font-face {
+		font-family: 'Loading-Icons';
+		src: url('fonts/Loading-Icons.eot');
+		src: url('fonts/Loading-Icons.eot?#iefix') format('embedded-opentype'),
+			url('fonts/Loading-Icons.svg#Loading-Icons') format('svg'),
+			url('fonts/Loading-Icons.woff') format('woff'),
+			url('fonts/Loading-Icons.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	.loading-font {
+		font-family: 'Loading-Icons';
+		content:attr(data-icon);
+		speak:none;
+	}
+
+/*@1 General*/
+/*Hide the radio buttons from the UI*/
+input[type="radio"] { display:none; }
+
+	/*@1.1 Navigation*/
+	nav ul,
+	.bg-colors {
+		list-style:none;
+		display:-webkit-box;	/*Safari only honors the old invalid box*/
+		display:-webkit-flexbox;
+		display:-moz-box;
+		display:-moz-flexbox;
+		display:-ms-flexbox;
+		display:flexbox;
+		font-family:'Italiana', serif;
+		text-align:center;
+		line-height:30px;
+		font-size:18px;
+		cursor:pointer;
+		-webkit-transition:	0.3s;
+		-moz-transition:	0.3s;
+		-o-transition:		0.3s;
+		transition:			0.3s;
+	}
+	nav li {
+		height:30px;
+	}
+	nav label,
+	.bg-colors label {
+		display:block;
+		cursor:pointer;
+	}
+
+		/*@1.1.1 Navigation Tabs*/
+		#info-nav {
+			width:90%;
+			margin:0 auto 10px;
+		}
+		
+		#info-nav li {
+			background: #85bf8c;
+			background: -moz-linear-gradient(top, #85bf8c 0%, #42b44f 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#85bf8c), color-stop(100%,#42b44f));
+			background: -webkit-linear-gradient(top, #85bf8c 0%,#42b44f 100%);
+			background: -o-linear-gradient(top, #85bf8c 0%,#42b44f 100%);
+			background: linear-gradient(to bottom, #85bf8c 0%,#42b44f 100%);
+			border:1px solid #17B226;
+			border-radius:0 0 5px 5px;
+			margin:0 20px;
+			width:100px;
+			box-shadow:inset 0 -3px 6px rgba(0,0,0,0.5);
+		}
+		#info-nav li:hover {}
+		/*@1.1.2 Sub Tab Selection*/
+		#type-about:checked ~ #About {
+			-webkit-transform:	none;
+			-moz-transform:		none;
+			-o-transform:		none;
+			transform:			none;
+		}
+		#type-about:checked ~ #info-nav .type-about,
+		#type-gallery:checked ~ #info-nav .type-gallery{
+			background: #3b7141;
+			background: -moz-linear-gradient(top, #3b7141 0%, #235f2a 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b7141), color-stop(100%,#235f2a));
+			background: -webkit-linear-gradient(top, #3b7141 0%,#235f2a 100%);
+			background: -o-linear-gradient(top, #3b7141 0%,#235f2a 100%);
+			background: linear-gradient(to bottom, #3b7141 0%,#235f2a 100%);
+			color:#fff;
+			cursor:default;
+		}
+		#type-gallery:checked ~ #Gallery {
+			-webkit-transform:	translateY(-300px);
+			-moz-transform:		translateY(-300px);
+			-o-transform:		translateY(-300px);
+			transform:			translateY(-300px);
+		}
+
+/*@2 About*/
+#About {
+	margin:0 auto;
+	padding:15px;
+	background:#FCFFD3;
+	border:2px solid;
+	border-radius:5px;
+	width:700px;
+	height:320px;
+	-webkit-transform:	translateX(-200%);
+	-moz-transform:		translateX(-200%);
+	-o-transform:		translateX(-200%);
+	transform:			translateX(-200%);
+}
+#About,
+#Gallery {
+	-webkit-transition:	1s cubic-bezier(0.2,-0.4,0.7,0.3);
+	-moz-transition:	1s cubic-bezier(0.2,-0.4,0.7,0.3);
+	-o-transition:		1s cubic-bezier(0.2,-0.4,0.7,0.3);
+	transition:			1s cubic-bezier(0.2,-0.4,0.7,0.3);
+}
+
+	/*@2.1 Background Swabs*/
+	.bg-colors li {
+		width:16px;
+		height:16px;
+		border:2px solid rgba(79,79,79,0.79);
+		cursor:pointer;
+		margin:0 2px;
+		border-radius:3px;
+		background-size:10px 10px;
+	}
+	.bg-colors label {
+		width:16px;
+		height:16px;
+		position:relative;
+		z-index:10;
+	}
+		/*@2.1.1 Selected Swab*/
+		.none,
+		#none:checked ~ article		{ background:rgba(153, 7, 34, 0.1); }
+		.brown,
+		#brown:checked ~ article	{ background:#543001; }
+		.black,
+		#black:checked ~ article	{ background:#000; }
+		.green,
+		#green:checked ~ article	{ background:#098438; }
+		.blue,
+		#blue:checked ~ article		{ background:#094F82; }
+		.pattern-a,
+		#pattern-a:checked ~ article{
+			background-color:#def;
+			background-image:-webkit-radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+				-webkit-radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+			background-image:-moz-radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+				-moz-radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+			background-image:-o-radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+				-o-radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+			background-image:radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+				radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+			background-size:80px 80px;
+			background-position:0 0, 40px 40px;
+		}
+		.pattern-b,
+		#pattern-b:checked ~ article{
+			background-color: #026873;
+			background-image:-webkit-linear-gradient(0, rgba(255,255,255,.07) 50%, transparent 50%),
+				-webkit-linear-gradient(0, rgba(255,255,255,.13) 50%, transparent 50%),
+				-webkit-linear-gradient(0, transparent 50%, rgba(255,255,255,.17) 50%),
+				-webkit-linear-gradient(0, transparent 50%, rgba(255,255,255,.19) 50%);
+			background-image:-moz-linear-gradient(0, rgba(255,255,255,.07) 50%, transparent 50%),
+				-moz-linear-gradient(0, rgba(255,255,255,.13) 50%, transparent 50%),
+				-moz-linear-gradient(0, transparent 50%, rgba(255,255,255,.17) 50%),
+				-moz-linear-gradient(0, transparent 50%, rgba(255,255,255,.19) 50%);
+			background-image:-o-linear-gradient(0, rgba(255,255,255,.07) 50%, transparent 50%),
+				-o-linear-gradient(0, rgba(255,255,255,.13) 50%, transparent 50%),
+				-o-linear-gradient(0, transparent 50%, rgba(255,255,255,.17) 50%),
+				-o-linear-gradient(0, transparent 50%, rgba(255,255,255,.19) 50%);
+			background-image:linear-gradient(0, rgba(255,255,255,.07) 50%, transparent 50%),
+				linear-gradient(0, rgba(255,255,255,.13) 50%, transparent 50%),
+				linear-gradient(0, transparent 50%, rgba(255,255,255,.17) 50%),
+				linear-gradient(0, transparent 50%, rgba(255,255,255,.19) 50%);
+			background-size:13px, 29px, 37px, 53px;
+		}
+
+/*@3 Gallery*/
+#Gallery {
+	width:950px;
+	height:500px;
+	margin:0 auto 20px;
+	-webkit-transform:	none;
+	-moz-transform:		none;
+	-o-transform:		none;
+	transform:			none;
+}
+	/*@3.1 Gallery Nav*/
+	#tab-holder { margin-top:20px; }
+	#tab-holder li {
+		width:150px;
+		height:30px;
+		margin:0 5px;
+		background: #c1092b;
+		background: -moz-linear-gradient(top, #c1092b 0%, #b44257 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c1092b), color-stop(100%,#b44257));
+		background: -webkit-linear-gradient(top, #c1092b 0%,#b44257 100%);
+		background: -o-linear-gradient(top, #c1092b 0%,#b44257 100%);
+		background: linear-gradient(to bottom, #c1092b 0%,#b44257 100%);
+		border-radius:5px 5px 0 0;
+		color:#fff;
+		font-size:20px;
+		box-shadow:inset -1px 0 1px rgba(0,0,0,0.5);
+		text-shadow:0 -1px 1px rgba(0,0,0,0.8),
+			0 -1px 1px rgba(255,255,255,0.4);
+	}
+	#tab-holder li:first-child { margin-left:0; }
+
+		/*@3.1.1 Gallery Nav Hover*/
+		#tab-holder li:hover {
+			color:#F4FF23;
+		}
+		/*@3.1.2 Gallery Nav Checked*/
+		#bars:checked ~ #bar-holder,
+		#strange:checked ~ #strange-holder,
+		#ddd:checked ~ #ddd-holder,
+		#circles:checked ~ #circle-holder {
+			opacity:1;
+			-webkit-transform:	rotateX(0) scale(1);
+			-moz-transform:		rotateX(0) scale(1);
+			-o-transform:		rotateX(0) scale(1);
+			ransform:			rotateX(0) scale(1);
+		}
+		#circles:checked ~ nav li.circles,
+		#bars:checked ~ nav li.bars,
+		#strange:checked ~ nav li.strange,
+		#ddd:checked ~ nav li.ddd {
+			background: #3f030e;
+			background: -moz-linear-gradient(top, #3f030e 0%, #3f171e 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f030e), color-stop(100%,#3f171e));
+			background: -webkit-linear-gradient(top, #3f030e 0%,#3f171e 100%);
+			background: -o-linear-gradient(top, #3f030e 0%,#3f171e 100%);
+			background: linear-gradient(to bottom, #3f030e 0%,#3f171e 100%);
+			cursor:default;
+			color:#fff;
+		}
+
+	/*@3.2 Gallery Content*/
+	#icon-gallery {
+		margin:0 auto;
+		position:relative;
+		height:95%;
+	}
+	#icon-gallery article {
+		width:100%;
+		height:100%;
+		border:1px solid rgb(153,7,34);
+		background:rgba(153, 7, 34, 0.1);
+		position:absolute;
+		opacity:0;
+		overflow:auto;
+		-webkit-transition:	1.4s;
+		-moz-transition:	1.4s;
+		-o-transition:		1.4s;
+		transition:			1.4s;
+		-webkit-transform:	rotateX(-90deg) scale(0.7);
+		-moz-transform:		rotateX(-90deg) scale(0.7);
+		-o-transform:		rotateX(-90deg) scale(0.7);
+		transform:			rotateX(-90deg) scale(0.7);
+		-webkit-transform-origin:	50% 0;
+		-moz-transform-origin:		50% 0;
+		-o-transform-origin:		50% 0;
+		transform-origin:			50% 0;
+	}
+	#icon-gallery article ul {
+		list-style:none;
+		margin:10px;
+		-webkit-columns:3;
+		-moz-columns:3;
+		columns:3;
+	}
+	#icon-gallery article li {
+		width:200px;
+		height:200px;
+		display:inline-block;
+		-webkit-column-break-after:always;
+		-moz-column-break-after:always;
+		column-break-after:always;
+	}
+		/*@3.2.1 - Individual Tabs*/
+		#Gallery #bar-holder { overflow-y:scroll; }
+		#Gallery #ddd-holder { overflow:scroll; }
+
+/*@4 Footer*/
+footer {
+	width:800px;
+	margin:0 auto 30px;
+	padding:15px;
+	background:#FCFFD3;
+	border:2px solid;
+	border-radius:5px;
+}
+footer ul {
+	list-style:none;
+}
+/*@10 Globals*/
+.note {
+	font-size:10px;
+}
+.icon {
+	margin:10px auto;
+	width:100px;
+	height:100px;
+	background:none;
+}
+/* All these animations are set to infinite
+	So in order to save lots of bytes lets declare it here
+	However, we can't declare it on .icon above
+		Because the animation decleration later on will overwrite it
+	So we put it on something with more specificity
+*/
+#icon-gallery .icon {
+	-webkit-animation-iteration-count:	infinite;
+	-moz-animation-iteration-count:		infinite;
+	-o-animation-iteration-count:		infinite;
+	animation-iteration-count:			infinite;
+}
+/* We usethe properties:
+		transform-style:preserve-3d 
+		perspective:1000
+	In alot of places
+	So instead of repeating ourselves more times then necessary
+	Set them as reuseable classed p3d, & ps1000
+ */
+.p3d {
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-o-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+}
+.ps1000 {
+	-webkit-perspective:1000;
+	-moz-perspective:1000;
+	-o-perspective:1000;
+	perspective:1000;	
+}
+.ease-quick-out {
+	-webkit-animation-timing-function:cubic-bezier(0.66,0.85,1,0.41);
+	-moz-animation-timing-function:cubic-bezier(0.66,0.85,1,0.41);
+	-o-animation-timing-function:cubic-bezier(0.66,0.85,1,0.41);
+	animation-timing-function:cubic-bezier(0.66,0.85,1,0.41);
+}

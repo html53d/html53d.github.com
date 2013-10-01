@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"> 
+<head profile="http://gmpg.org/xfn/11"> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<title>幻灯片,javascript幻灯，焦点幻灯，滑动切换幻灯，轮播幻灯代码大全 - 前端开发网（HTML6GAME） - html5，flash游戏的分享 - web前端开发资讯.交流站点</title>
+
+<meta name="keywords" content="原创作品,教程,代码,html5游戏,flash游戏,web前端开发,javascript,rpg,网页游戏,手机游戏,程序源码,flash幻灯片,webgame展示,游戏开发" />
+<meta name="description" content="前端开发网（www.html6game.com），专注于html5和flash游戏，为程序员提供web开发教程。另外提供国内一流的flash和js幻灯片，在这里有最近的资讯和最前沿的开发技术！" />
+
+<link rel="stylesheet" type="text/css" href="images/css/featured_slider.css"  /> 
+
+<script type='text/javascript' src='images/js/jquery.min.js'></script> 
+
+<script type="text/javascript"> 
+$(window).load(function() {
+    $('#slider').nivoSlider({
+		controlNav:false,
+        effect:'random', //Specify sets like: 'fold,fade,sliceDown'
+        animSpeed:500, //Slide transition speed
+		captionOpacity:0.9,
+        directionNav:true, //Next &amp; Prev
+		controlNav:true, // 1,2,3... navigation
+		pauseTime: 3000, // How long each slide will show
+		directionNavHide: true,
+        pauseOnHover:true //Stop animation while hovering
+    });
+});
+</script> 
+<script type='text/javascript' src='images/js/jquery.nivo.slider.js'></script> 
+
+</head> 
+
+<body> 
+
+<div class="featured_slider"> 
+<div id="featured_slider_bg" class="featured_slider_pattern"> 
+<div id="slider-wrapper"> 
+  <div id="slider" class="nivoSlider"> 
+                <a href="http://www.html6game.com" title="Featured Slide" target="_blank"><img src="images/1.jpg" alt=""  title="前端开发网"  /> </a> 
+                    <a href="http://www.html6game.com" title="Slide With Caption" target="_blank"><img src="images/2.jpg" alt=""  title="前端开发网2"  /> </a> 
+                    <a href="http://www.html6game.com" title="Aenean sagittis aliquam leo ut aliquet" target="_blank"><img src="images/3.jpg" alt=""  title="前端开发网3"  /> </a> 
+                    <a href="http://www.html6game.com" title="Lorem Ipsum" target="_blank"><img src="images/4.jpg" alt=""  title="前端开发网4"  /> </a>                            </div> 
+     <div class="slider_border"></div> 
+</div> 
+</div> 
+</div>
+
+</body>
+</html>

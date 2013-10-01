@@ -1,0 +1,68 @@
+body {
+	margin-left: 0px; margin-top: 0px
+}
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+
+
+.flashBox {
+	MARGIN: 0px 0px 0px 0px; WIDTH: 456px; POSITION: relative; HEIGHT: 183px
+}
+.flashBox .bigPic {
+	DISPLAY: block; FLOAT: left; OVERFLOW: hidden; WIDTH: 365px; HEIGHT: 183px
+}
+.flashBox .bigPic IMG {
+	DISPLAY: block; FLOAT: left; OVERFLOW: hidden; WIDTH: 365px; HEIGHT: 183px
+}
+.flashBox UL {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 90px; HEIGHT: 183px
+}
+.flashBox UL LI {
+	DISPLAY: block; FLOAT: left; OVERFLOW: hidden; WIDTH: 90px; HEIGHT: 45px
+}
+.flashBox UL LI IMG {
+	DISPLAY: block; FLOAT: left; OVERFLOW: hidden; WIDTH: 90px; HEIGHT: 45px
+}
+.flashBox UL LI {
+	MARGIN-BOTTOM: 1px; POSITION: relative
+}
+.flashBox UL LI A {
+	DISPLAY: block; Z-INDEX: 10; BACKGROUND: url(../img/pic.png) no-repeat 1000px 1000px; LEFT: 0px; OVERFLOW: hidden; WIDTH: 90px; TEXT-INDENT: -9999px; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.flashBox UL LI A:hover {
+	BORDER-RIGHT: #fcd605 2px solid; BORDER-TOP: #fcd605 2px solid; BORDER-LEFT: #fcd605 2px solid; WIDTH: 86px; BORDER-BOTTOM: #fcd605 2px solid; HEIGHT: 41px
+}
+.flashBox UL LI A.currA {
+	BORDER-RIGHT: #fcd605 2px solid; BORDER-TOP: #fcd605 2px solid; BORDER-LEFT: #fcd605 2px solid; WIDTH: 86px; BORDER-BOTTOM: #fcd605 2px solid; HEIGHT: 41px
+}
+.flashBox UL LI IMG {
+	Z-INDEX: 1; LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+.flashBox .bg {
+	Z-INDEX: 1; BACKGROUND: #000000; FILTER: alpha(opacity=47); LEFT: 0px; WIDTH: 365px; POSITION: absolute; TOP: 137px; HEIGHT: 46px; -moz-opacity: 0.47; opacity: 0.47
+}
+
+.flashBox H2 {
+	Z-INDEX: 10; LEFT: 13px; OVERFLOW: hidden; WIDTH: 340px; LINE-HEIGHT: 25px; POSITION: absolute; TOP: 142px; HEIGHT: 25px
+}
+.flashBox P {
+	Z-INDEX: 10; LEFT: 13px; OVERFLOW: hidden; WIDTH: 340px; LINE-HEIGHT: 25px; POSITION: absolute; TOP: 142px; HEIGHT: 25px
+}
+.flashBox P {
+	TOP: 161px
+}
+.flashBox H2 A {
+	FONT-SIZE: 16px
+}
+.flashBox A {
+	COLOR: #ffffff
+}
+.flashBox A:hover {
+	COLOR: #add6ff; TEXT-DECORATION: none
+}
+

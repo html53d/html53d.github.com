@@ -1,0 +1,352 @@
+/* LayerSlider Styles */
+
+/* LayerSlider Light Skin */
+
+#layerslider,
+#layerslider2 {
+	width: 1000px;
+	height: 430px;
+	margin: 0px auto 50px auto;
+}
+.product-link-slider {
+    display: block;
+    height: 367px;
+    left: 68px;
+    top: 0;
+    width: 861px;
+    z-index: 10;
+	background: url("../bg/blank.png") /* 去掉则 ie下链接不能点击 */
+}
+.slider-section .actions-btn {
+    z-index: 11;
+}
+#leaf1 {
+	left: 110px;
+	top: -110px;
+}
+
+#leaf2 {
+	left: -20px;
+	top: 230px;
+}
+
+#leaf3 {
+	left: 500px;
+	top: -200px;
+}
+
+#clouds {
+	left: -100px;
+	top: -100px;
+}
+
+#earth {
+	left: 850px;
+	top: -67px;
+}
+
+#l5text1, #l5text2, #l5text3 {
+	width: 120px;
+	padding: 5px;
+	text-align: center;
+	color: #eee;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #000;
+	background-color: rgba(255,255,255,.07);
+	font-size: 17px;
+	-webkit-transform: rotate(-30deg); 
+	-moz-transform: rotate(-30deg);	
+}
+
+#l5text1 {
+	left: 250px;
+	top: 120px;
+}
+
+#l5text2 {
+	left: 450px;
+	top: 150px;	
+}
+
+#l5text3 {
+	left: 620px;
+	top: 150px;
+}
+
+.ls-active #earth {
+	-webkit-transition: all 20s ease-in-out;
+	-moz-transition: all 20s ease-in-out;
+	-o-transition: all 20s ease-in-out;
+	-ms-transition: all 20s ease-in-out;	
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+/* LayerSlider Styles */
+
+
+
+.ls-inner {
+	position: relative;
+        top: -12px;
+}
+
+.ls-inner,
+.ls-layer {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ls-layer {
+	position: absolute;
+	display: none;
+	background-position: center center;
+}
+
+.ls-active,
+.ls-animating {
+	display: block !important;
+}
+
+.ls-layer > * {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.ls-layer .ls-bg {
+	left: 532px;
+        top: 211px;
+}
+
+.ls-bottom-nav-wrapper {
+	z-index: 2;
+	height: 0px;
+}
+
+.ls-bottom-nav-wrapper a,
+.ls-nav-prev,
+.ls-nav-next {
+	outline: none;
+}
+
+.ls-vpcontainer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.ls-videopreview {
+	width : 100%;
+	height : 100%;
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	cursor : pointer;
+}
+
+.ls-playvideo {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	cursor: pointer;
+}
+
+
+
+/* WP plugin forceResponsive */
+
+.ls-wp-forceresponsive-container {
+	width: 100%;
+	position: relative;
+}
+
+.ls-wp-forceresponsive-helper {
+	position: absolute;
+	margin-left: 50%;
+}
+
+#main {
+	overflow: visible !important;	
+}
+
+
+.ls-lightskin {
+	padding: 5px;
+}
+
+.ls-lightskin .ls-bottom-nav-wrapper {
+    position: absolute;
+    right: 55px;
+    text-align: center;
+    top: 16px;
+}
+
+.ls-lightskin .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+.ls-lightskin .ls-playvideo,
+.ls-lightskin .ls-nav-sides,
+.ls-lightskin .ls-bottom-slidebuttons a,
+.ls-lightskin .ls-nav-prev,
+.ls-lightskin .ls-nav-next,
+.ls-lightskin .ls-nav-start,
+.ls-lightskin .ls-nav-stop {
+	background-image: url("../bg/bg_button.png");	
+}
+
+.ls-lightskin .ls-playvideo {
+	background-position: -300px -150px;
+}
+
+.ls-lightskin .ls-playvideo:hover,
+.ls-lightskin .ls-vpcontainer:hover .ls-playvideo {
+	background-position: -375px -150px;
+}
+
+.ls-lightskin .ls-nav-prev {
+	background-position: 494px -126px;
+}
+
+.ls-lightskin .ls-nav-prev:hover {
+	background-position: 494px -201px;
+}
+
+.ls-lightskin .ls-nav-next {
+	background-position: -258px -126px;
+}
+
+.ls-lightskin .ls-nav-next:hover {
+	background-position: -259px -201px
+}
+
+.ls-lightskin .ls-nav-start {
+	background-position: -300px 0px;
+}
+
+.ls-lightskin .ls-nav-start:hover {
+	background-position: -300px -75px;
+}
+
+.ls-lightskin .ls-nav-stop {
+	background-position: -450px 0px;
+}
+
+.ls-lightskin .ls-nav-stop:hover {
+	background-position: -450px -75px;
+}
+
+.ls-lightskin .ls-bottom-slidebuttons a {
+	background-position: 100% 0;
+}
+
+.ls-lightskin .ls-bottom-slidebuttons a.ls-nav-active {
+	background-position: 100% -24px;
+}
+.ls-lightskin .ls-bottom-slidebuttons a:hover {
+    background-position: 100% -24px;
+}
+
+.ls-lightskin .ls-nav-sideleft {
+	background-position: -150px -150px;	
+}
+
+.ls-lightskin .ls-nav-sideright {
+	background-position: -225px -150px;	
+}
+
+
+
+.ls-lightskin .ls-nav-prev,
+.ls-lightskin .ls-nav-next {
+	height: 70px;
+        margin-top: -82px;
+        position: absolute;
+        top: 50%;
+        width: 70px;
+        z-index: 10000;
+}
+
+.ls-lightskin .ls-nav-prev {
+	left: 5px;	
+}
+
+.ls-lightskin .ls-nav-next {
+	right: 5px;	
+}
+
+
+
+.ls-lightskin .ls-bottom-slidebuttons,
+.ls-lightskin .ls-bottom-slidebuttons a,
+.ls-lightskin .ls-nav-start,
+.ls-lightskin .ls-nav-stop,
+.ls-lightskin .ls-bottom-nav-wrapper,
+.ls-lightskin .ls-nav-sides {
+	height: 28px;
+}
+
+.ls-lightskin .ls-bottom-slidebuttons,
+.ls-lightskin .ls-bottom-slidebuttons a,
+.ls-lightskin .ls-nav-start,
+.ls-lightskin .ls-nav-stop,
+.ls-lightskin .ls-nav-sides {
+	display: inline-block;
+}
+
+.ls-lightskin .ls-nav-start,
+.ls-lightskin .ls-nav-stop {
+	width: 54px;
+}
+
+.ls-lightskin .ls-bottom-slidebuttons a {
+	height: 24px;
+        width: 24px;
+        margin: 0 0 0 5px;
+}
+
+.ls-lightskin .ls-nav-sides {
+	width: 44px;
+        display: none;
+}
+.ls-layer .title-slide {
+    color: #412817;
+    font-size: 32px;
+}
+.ls-layer .price-slider {
+    color: #FFFFFF;
+    font-family: 'GooddogFont';
+    font-size: 67px;
+    text-align: center;
+    text-shadow: 1px 1px 4px #000000, 1px 1px 4px #000000, 1px 1px 4px #000000, 1px 1px 4px #000000, 1px 1px 4px #000000, 1px 1px 4px #000000;
+} 
+.ls-layer .price-slider span {
+    font-size: 43px;
+} 
+.ls-layer .actions-btn .btn-cart {
+    background: url("../bg/bg_button.png") no-repeat scroll 0 -5px transparent;
+    color: #FFFFFF;
+    font-family: 'GooddogFont';
+    font-size: 32px;
+    height: 58px;
+    text-decoration: none;
+    display: block;
+    text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000;
+    width: 225px;
+    text-align: center;
+    line-height: 58px;
+}
+.ls-layer .actions-btn .btn-cart:hover {
+    background-position: 0 -68px;
+}

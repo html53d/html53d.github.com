@@ -1,0 +1,533 @@
+/*	Icons Themselves for the Loading Icons:
+
+	File Name:		icons.css
+	FileURL:		http://demo.alphavega.com/css/loading/css/icons.css
+	File Author:	Stephen Giorgi
+	Author email:	stephen.giorgi@alphavega.com | steve@deadlycomputer.com
+	Author URL:		http://www.alphavega.com
+	Description:	These are all the styles for the loading.
+					I decided to split out the 3-D ones into another file, ddd.css
+					Keeping with the rest of the files, -ms- prefixes for animations, transforms, & gradients are not used
+					Since they were only supported in IE10, and in the IE 10 Release Preview they are supported unprefixed
+
+	@1. - Circle Icons
+		@1.1 - Pulse
+		@1.2 - Chase
+		@1.3 - 1/4 Circle
+		@1.4 - 1/2 Circle
+		@1.5 - Simon Circle
+		@1.6 - Radar
+		@1.7 - Grow
+	@2. - Bar Icons
+		@2.1 - Stripped Bar
+		@2.2 - Forever
+		@2.3 - Power Up
+		@2.4 - Round Bar
+		@2.5 - Vertical Bar
+	@3. - Strange Icons
+		@3.1 - Pendulum
+		@3.2 - Hour Glass
+		@3.3 - Baseball
+		@3.4 - Flower
+		@3.5 - Dots
+		@3.6 - Cross Hair
+		@3.7 - Tank
+		@3.8 - Marching Ants
+	@4. - 3-D Icons
+ */
+
+/*@1 Circle Icons*/
+.circle {
+	border-radius:50%;
+	border:10px solid transparent;
+}
+/*@1.1 Pulse*/
+.pulse {
+	background-image:
+		-webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%),
+		-webkit-radial-gradient(center, ellipse cover, rgba(7,196,29,0) 39%,rgba(7,196,29,1) 40%,rgba(7,196,29,1) 49%,rgba(0,0,0,0) 50%);
+	background-image:
+		-moz-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%),
+		-moz-radial-gradient(center, ellipse cover, rgba(7,196,29,0) 39%,rgba(7,196,29,1) 40%,rgba(7,196,29,1) 49%,rgba(0,0,0,0) 50%);
+	background-image:
+		-o-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%),
+		-o-radial-gradient(center, ellipse cover, rgba(7,196,29,0) 39%,rgba(7,196,29,1) 40%,rgba(7,196,29,1) 49%,rgba(0,0,0,0) 50%);
+	background-image:
+		-ms-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%),
+		-ms-radial-gradient(center, ellipse cover, rgba(7,196,29,0) 39%,rgba(7,196,29,1) 40%,rgba(7,196,29,1) 49%,rgba(0,0,0,0) 50%);
+	background-image:
+		radial-gradient(ellipse at center, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%),
+		radial-gradient(ellipse at center, rgba(7,196,29,0) 39%,rgba(7,196,29,1) 40%,rgba(7,196,29,1) 49%,rgba(0,0,0,0) 50%);
+	background-size:15% 15%;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	border-radius:50%;
+	-webkit-animation:	pusle 2s ease-out;
+	-moz-animation:		pusle 2s ease-out;
+	-o-animation:		pusle 2s ease-out;
+	animation:			pusle 2s ease-out;
+	opacity:1;
+}
+/*@1.2 Chase*/
+.chase {
+	border-top-color:rgba(8,214,22,1);
+	border-bottom-color:rgba(9,138,237,1);
+	-webkit-animation:	chase 1.5s linear;
+	-moz-animation:		chase 1.5s linear;
+	-o-animation:		chase 1.5s linear;
+	animation:			chase 1.5s linear;
+}
+/*@1.3 1/4 Circle*/
+.circle-1-2,
+.circle-1-4 {
+	border-width:5px;
+	border-top-color:rgba(49,96,237,1);
+	width:50px;
+	height:50px;
+	-webkit-animation:	spinn 1s linear;
+	-moz-animation:		spinn 1s linear;
+	-o-animation:		spinn 1s linear;
+	animation:			spinn 1s linear;
+}
+/*@1.4 1/2 Circle*/
+.circle-1-2 {
+	border-left-color:rgba(49,96,237,1);
+}
+/*@1.5 Simon Circle*/
+.simon {
+	border-left-color:#BF201B;	/*- red*/
+	border-right-color:#E5CD1B;	/*- yellow*/
+	border-top-color:#2243A5;		/*- blue*/
+	border-bottom-color:#10CC06;	/*- green*/
+/*	border-color:transparent;*/
+	border-width:20px;
+	-webkit-animation:	simon-says 5s 0.5s;
+	-moz-animation:		simon-says 5s 0.5s;
+	-o-animation:		simon-says 5s 0.5s;
+	animation:			simon-says 5s 0.5s;
+}
+
+/*@1.6 Radar*/
+.radar {
+	background-image:
+		-webkit-linear-gradient(left, rgba(0,110,46,1) 0%,rgba(0,30,8,0) 25%),
+		-webkit-repeating-radial-gradient(center, ellipse cover, rgba(0,110,46,1) 25%,rgba(0,30,8,1) 27%,rgba(0,30,8,1) 38%,rgba(0,110,46,1) 40%);
+	background-image:
+		-moz-linear-gradient(left, rgba(0,110,46,1) 0%,rgba(0,30,8,0) 25%),
+		-moz-repeating-radial-gradient(center, ellipse cover, rgba(0,110,46,1) 25%,rgba(0,30,8,1) 27%,rgba(0,30,8,1) 38%,rgba(0,110,46,1) 40%);		
+	background-image:
+		-o-linear-gradient(left, rgba(0,110,46,1) 0%,rgba(0,30,8,0) 25%),
+		-o-repeating-radial-gradient(center, ellipse cover, rgba(0,110,46,1) 25%,rgba(0,30,8,1) 27%,rgba(0,30,8,1) 38%,rgba(0,110,46,1) 40%);
+	background-image:
+		linear-gradient(left, rgba(0,110,46,1) 0%,rgba(0,30,8,0) 25%),
+		repeating-radial-gradient(center, ellipse cover, rgba(0,110,46,1) 25%,rgba(0,30,8,1) 27%,rgba(0,30,8,1) 38%,rgba(0,110,46,1) 40%);
+	background-size:100% 5%,
+			100% 100%;
+	background-repeat:no-repeat;
+	border-radius:50%;
+	position:relative;
+	-webkit-animation:	spinn 2s linear;
+	-moz-animation:		spinn 2s linear;
+	-o-animation:		spinn 2s linear;
+	animation:			spinn 2s linear;
+}
+.radar::after {
+	content:" ";
+	width:50%;
+	height:45%;
+	position:absolute;
+	top:55%;
+	left:50%;
+	margin-left:-2%;
+	background:-webkit-linear-gradient(left, rgba(0,110,46,1) 0%,rgba(0,30,8,0) 25%);
+	background:-moz-linear-gradient(left, rgba(0,110,46,1) 0%,rgba(0,30,8,0) 25%);
+	background:-o-linear-gradient(left, rgba(0,110,46,1) 0%,rgba(0,30,8,0) 25%);
+	background:linear-gradient(left, rgba(0,110,46,1) 0%,rgba(0,30,8,0) 25%);
+	display:block;
+}
+/*@1.7 Grow*/
+.grow {
+	border:50px solid transparent;
+	border-top-color:#1B7770;
+	border-bottom-color:#1B7770;
+	border-radius:50%;
+	-webkit-animation:
+		grow-up 0.8s ease-out infinite alternate,
+		spinn 2s linear infinite;
+	-moz-animation:
+		grow-up 0.8s ease-out infinite alternate,
+		spinn 2s linear infinite;
+	-o-animation:
+		grow-up 0.8s ease-out infinite alternate,
+		spinn 2s linear infinite;
+	animation:
+		grow-up 0.8s ease-out infinite alternate,
+		spinn 2s linear infinite;
+}
+
+/*@2 Bars*/
+.bar {
+	height:20px;
+}
+/*@2.1 Stripped Bar*/
+.bar-stripe {
+	background-color:#23CC20;
+	background-image:-webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+	background-image:-moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+	background-image:-o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+	background-image:linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+	background-size:50px 50px;
+	border-radius:5px;
+	margin:10px 0;
+	height:50px;
+	width:5%;
+	-webkit-animation:	fill-up 3s infinite;
+	-moz-animation:		fill-up 3s infinite;
+	-o-animation:		fill-up 3s infinite;
+	animation:			fill-up 3s infinite;
+}
+/*@2.2 Forever*/
+.bar-forever {
+	background-color:#107CB2;
+	background-size:50px 50px;
+	width:90%;
+	margin:10px auto;
+	height:20px;
+	-webkit-animation:	forever 0.75s linear infinite;
+	-moz-animation:		forever 0.75s linear infinite;
+	-o-animation:		forever 0.75s linear infinite;
+	animation:			forever 0.75s linear infinite;
+}
+/*@2.3 Power Bar*/
+.power-bar {
+	background-image:
+		-webkit-linear-gradient(left, rgba(2,38,45,0) 30%,rgba(2,38,45,1) 33%,rgba(2,38,45,1) 66%,rgba(2,38,45,0) 70%),
+		-webkit-linear-gradient(left, rgba(12,175,211,0) 30%,rgba(12,175,211,1) 33%,rgba(12,175,211,1) 66%,rgba(12,175,211,0) 70%);
+	background-image:
+		-moz-linear-gradient(left, rgba(2,38,45,0) 30%,rgba(2,38,45,1) 33%,rgba(2,38,45,1) 66%,rgba(2,38,45,0) 70%),
+		-moz-linear-gradient(left, rgba(12,175,211,0) 30%,rgba(12,175,211,1) 33%,rgba(12,175,211,1) 66%,rgba(12,175,211,0) 70%);
+	background-image:
+		-o-linear-gradient(left, rgba(2,38,45,0) 30%,rgba(2,38,45,1) 33%,rgba(2,38,45,1) 66%,rgba(2,38,45,0) 70%),
+		-o-linear-gradient(left, rgba(12,175,211,0) 30%,rgba(12,175,211,1) 33%,rgba(12,175,211,1) 66%,rgba(12,175,211,0) 70%);
+	background-image:
+		linear-gradient(left, rgba(2,38,45,0) 30%,rgba(2,38,45,1) 33%,rgba(2,38,45,1) 66%,rgba(2,38,45,0) 70%),
+		linear-gradient(left, rgba(12,175,211,0) 30%,rgba(12,175,211,1) 33%,rgba(12,175,211,1) 66%,rgba(12,175,211,0) 70%);
+	background-size:50% 100%;
+	background-repeat:repeat-x;
+	-webkit-animation:	power-up 0.5s linear;
+	-moz-animation:		power-up 0.5s linear;
+	-o-animation:		power-up 0.5s linear;
+	animation:			power-up 0.5s linear;		
+}
+/*@2.4 Round Bar*/
+.bar-round {
+	border:2px solid #842E00;
+	border-radius:5px;
+	background:#11AEFC;
+	background-image:
+		-webkit-linear-gradient(-45deg, rgba(3,11,43,0) 10%,rgba(3,11,43,1) 11%,rgba(3,11,43,1) 30%,rgba(3,11,43,0) 31%,rgba(3,11,43,0) 70%,rgba(3,11,43,1) 71%,rgba(3,11,43,1) 88%,rgba(3,11,43,0) 90%);
+	background-image:
+		-moz-linear-gradient(-45deg, rgba(3,11,43,0) 10%,rgba(3,11,43,1) 11%,rgba(3,11,43,1) 30%,rgba(3,11,43,0) 31%,rgba(3,11,43,0) 70%,rgba(3,11,43,1) 71%,rgba(3,11,43,1) 88%,rgba(3,11,43,0) 90%);
+	background-image:
+		-o-linear-gradient(-45deg, rgba(3,11,43,0) 10%,rgba(3,11,43,1) 11%,rgba(3,11,43,1) 30%,rgba(3,11,43,0) 31%,rgba(3,11,43,0) 70%,rgba(3,11,43,1) 71%,rgba(3,11,43,1) 88%,rgba(3,11,43,0) 90%);
+	background-image:
+		linear-gradient(135deg, rgba(3,11,43,0) 10%,rgba(3,11,43,1) 11%,rgba(3,11,43,1) 30%,rgba(3,11,43,0) 31%,rgba(3,11,43,0) 70%,rgba(3,11,43,1) 71%,rgba(3,11,43,1) 88%,rgba(3,11,43,0) 90%);
+	background-position:100% 100%;
+	background-size:300% 100%;
+	background-repeat:repeat-x;
+	-webkit-animation:	slide 2s linear;
+	-moz-animation:		slide 2s linear;
+	-o-animation:		slide 2s linear;
+	animation:			slide 2s linear;
+}
+/*@2.5 Alternate*/
+.bar-alternate {
+	background-size:28% 100%;
+	-webkit-animation:	slide 1s alternate ease-in-out;
+	-moz-animation:		slide 1s alternate ease-in-out;
+	-o-animation:		slide 1s alternate ease-in-out;
+	animation:			slide 1s alternate ease-in-out;
+}
+
+/*@2.6 Vertical Bar*/
+.vertical-bar {
+	background-color:#686214;
+	width:50px;
+	height:5%;
+	margin:0;
+	-webkit-animation:	fill-up-v 3s linear infinite;
+	-moz-animation:		fill-up-v 3s linear infinite;
+	-o-animation:		fill-up-v 3s linear infinite;
+	animation:			fill-up-v 3s linear infinite;
+}
+/*@3 Strange*/
+/*@3.1 Pendulum*/
+.pendulum {
+	width:5px;
+	background:#301D0F;
+	position:relative;
+	-webkit-transform-origin:	50% 0;
+	-moz-transform-origin:		50% 0;
+	-o-transform-origin:		50% 0;
+	transform-origin:			50% 0;
+	-webkit-animation:	swing 1s ease-in-out alternate;
+	-moz-animation:		swing 1s ease-in-out alternate;
+	-o-animation:		swing 1s ease-in-out alternate;
+	animation:			swing 1s ease-in-out alternate;
+}
+.pendulum::after {
+	content:" ";
+	width:500%;
+	height:25%;
+	position:absolute;
+	top:75%;
+	left:-200%;
+	border-radius:50%;
+	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+	background-image:-moz-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+	background-image:-o-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+	background-image:radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+	display:block;
+}
+/*@3.2 Hour Glass*/
+.hour-glass {
+	background-image:
+		-webkit-radial-gradient(top, ellipse cover, rgba(40,40,40,0) 50%, rgba(40,40,40,1) 51%, rgba(40,40,40,1) 60%,rgba(40,40,40,0) 61%),
+		-webkit-radial-gradient(bottom, ellipse cover, rgba(40,40,40,0) 50%, rgba(40,40,40,1) 51%, rgba(40,40,40,1) 60%,rgba(40,40,40,0) 61%),
+		-webkit-radial-gradient(top, ellipse cover, rgba(27,211,252,1) 50%,rgba(27,211,252,0) 51%),
+		-webkit-radial-gradient(bottom, ellipse cover, rgba(27,211,252,1) 50%,rgba(27,211,252,0) 51%);
+	background-image:
+		-moz-radial-gradient(top, ellipse cover, rgba(40,40,40,0) 50%, rgba(40,40,40,1) 51%, rgba(40,40,40,1) 60%,rgba(40,40,40,0) 61%),
+		-moz-radial-gradient(bottom, ellipse cover, rgba(40,40,40,0) 50%, rgba(40,40,40,1) 51%, rgba(40,40,40,1) 60%,rgba(40,40,40,0) 61%),
+		-moz-radial-gradient(top, ellipse cover, rgba(27,211,252,1) 50%,rgba(27,211,252,0) 51%),
+		-moz-radial-gradient(bottom, ellipse cover, rgba(27,211,252,1) 50%,rgba(27,211,252,0) 51%);
+	background-image:
+		-o-radial-gradient(top, ellipse cover, rgba(40,40,40,0) 50%, rgba(40,40,40,1) 51%, rgba(40,40,40,1) 60%,rgba(40,40,40,0) 61%),
+		-o-radial-gradient(bottom, ellipse cover, rgba(40,40,40,0) 50%, rgba(40,40,40,1) 51%, rgba(40,40,40,1) 60%,rgba(40,40,40,0) 61%),
+		-o-radial-gradient(top, ellipse cover, rgba(27,211,252,1) 50%,rgba(27,211,252,0) 51%),
+		-o-radial-gradient(bottom, ellipse cover, rgba(27,211,252,1) 50%,rgba(27,211,252,0) 51%);
+	background-image:
+		radial-gradient(top, ellipse cover, rgba(40,40,40,0) 50%, rgba(40,40,40,1) 51%, rgba(40,40,40,1) 60%,rgba(40,40,40,0) 61%),
+		radial-gradient(bottom, ellipse cover, rgba(40,40,40,0) 50%, rgba(40,40,40,1) 51%, rgba(40,40,40,1) 60%,rgba(40,40,40,0) 61%),
+		radial-gradient(top, ellipse cover, rgba(27,211,252,1) 50%,rgba(27,211,252,0) 51%),
+		radial-gradient(bottom, ellipse cover, rgba(27,211,252,1) 50%,rgba(27,211,252,0) 51%);
+	background-size:
+		40% 60%,
+		40% 60%,
+		40% 60%,
+		0% 0%;
+	background-position:
+		50% 8%,
+		50% 92%,
+		50% 8%,
+		50% 92%;
+	background-repeat:no-repeat;
+	-webkit-animation:	time-turner 7s linear infinite both;
+	-moz-animation:		time-turner 7s linear infinite both;
+	-o-animation:		time-turner 7s linear infinite both;
+	animation:			time-turner 7s linear infinite both;
+}
+/*@3.3 Baseball*/
+.baseball {
+	background-image:
+		-webkit-radial-gradient(center, ellipse cover, rgba(25,2,5,0) 50%,rgba(25,2,5,1) 51%,rgba(25,2,5,1) 59%,rgba(25,2,5,0) 60%),
+		-webkit-radial-gradient(right, ellipse cover, rgba(122,23,28,0) 50%,rgba(122,23,28,1) 51%,rgba(122,23,28,1) 59%,rgba(122,23,28,0) 60%),
+		-webkit-radial-gradient(left, ellipse cover, rgba(122,23,28,0) 50%,rgba(122,23,28,1) 51%,rgba(122,23,28,1) 59%,rgba(122,23,28,0) 60%);
+	background-image:
+		-moz-radial-gradient(center, ellipse cover, rgba(25,2,5,0) 50%,rgba(25,2,5,1) 51%,rgba(25,2,5,1) 59%,rgba(25,2,5,0) 60%),
+		-moz-radial-gradient(right, ellipse cover, rgba(122,23,28,0) 50%,rgba(122,23,28,1) 51%,rgba(122,23,28,1) 59%,rgba(122,23,28,0) 60%),
+		-moz-radial-gradient(left, ellipse cover, rgba(122,23,28,0) 50%,rgba(122,23,28,1) 51%,rgba(122,23,28,1) 59%,rgba(122,23,28,0) 60%);
+	background-image:
+		-o-radial-gradient(center, ellipse cover, rgba(25,2,5,0) 50%,rgba(25,2,5,1) 51%,rgba(25,2,5,1) 59%,rgba(25,2,5,0) 60%),
+		-o-radial-gradient(right, ellipse cover, rgba(122,23,28,0) 50%,rgba(122,23,28,1) 51%,rgba(122,23,28,1) 59%,rgba(122,23,28,0) 60%),
+		-o-radial-gradient(left, ellipse cover, rgba(122,23,28,0) 50%,rgba(122,23,28,1) 51%,rgba(122,23,28,1) 59%,rgba(122,23,28,0) 60%);
+	background-image:
+		radial-gradient(center, ellipse cover, rgba(25,2,5,0) 50%,rgba(25,2,5,1) 51%,rgba(25,2,5,1) 59%,rgba(25,2,5,0) 60%),
+		radial-gradient(right, ellipse cover, rgba(122,23,28,0) 50%,rgba(122,23,28,1) 51%,rgba(122,23,28,1) 59%,rgba(122,23,28,0) 60%),
+		radial-gradient(left, ellipse cover, rgba(122,23,28,0) 50%,rgba(122,23,28,1) 51%,rgba(122,23,28,1) 59%,rgba(122,23,28,0) 60%);
+	background-size:
+		50% 50%,
+		15% 30%,
+		15% 30%;
+	background-position:
+		50% 50%,
+		60% 50%,
+		40% 50%;
+	background-repeat:no-repeat;
+	-webkit-animation:	throw 2s linear alternate;
+	-moz-animation:		throw 2s linear alternate;
+	-o-animation:		throw 2s linear alternate;
+	animation:			throw 2s linear alternate;
+}
+/*@3.4 Flower*/
+.flower {
+	background-origin:content-box;
+	padding:10px;
+	background:
+		-webkit-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-webkit-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-webkit-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-webkit-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-webkit-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-webkit-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%);
+	background:
+		-moz-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-moz-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-moz-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-moz-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-moz-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-moz-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%);
+	background:
+		-o-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-o-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-o-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-o-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-o-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		-o-radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%);
+	background:
+		radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%),
+		radial-gradient(center, ellipse cover, rgba(255,117,119,0) 49%,rgba(255,117,119,1) 50%,rgba(255,117,119,0.43) 70%,rgba(255,117,119,0) 85%);
+	background-position:
+		50% 0,
+		90% 30%,
+		90% 75%,
+		50% 100%,
+		10% 75%,
+		10% 30%;
+	background-size:0 0;
+	background-repeat:no-repeat;
+	-webkit-animation:	Bellossom 1s linear;
+	-moz-animation:		Bellossom 1s linear;
+	-o-animation:		Bellossom 1s linear;
+	animation:			Bellossom 1s linear;
+}
+/*@3.5 Dots*/
+.dots {
+	background-image:
+		-webkit-radial-gradient(center, ellipse cover, rgba(7,196,29,1) 50%,rgba(7,196,29,0) 51%),
+		-webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%);
+	background-image:
+		-moz-radial-gradient(center, ellipse cover, rgba(7,196,29,1) 50%,rgba(7,196,29,0) 51%),
+		-moz-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%);
+	background-image:
+		-o-radial-gradient(center, ellipse cover, rgba(7,196,29,1) 50%,rgba(7,196,29,0) 51%),
+		-o-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%);
+	background-image:
+		-ms-radial-gradient(center, ellipse cover, rgba(7,196,29,1) 50%,rgba(7,196,29,0) 51%),
+		-ms-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%);
+	background-image:
+		radial-gradient(ellipse at center, rgba(7,196,29,1) 50%,rgba(7,196,29,0) 51%),
+		radial-gradient(ellipse at center, rgba(0,0,0,1) 50%,rgba(0,0,0,0) 51%);
+	background-size:
+		25% 25%,
+		25% 25%;
+	background-repeat:
+		no-repeat,
+		repeat;
+	background-position:0 0;
+	-webkit-animation:	dotty 4s linear infinite;
+	-moz-animation:		dotty 4s linear infinite;
+	-o-animation:		dotty 4s linear infinite;
+	animation:			dotty 4s linear infinite;
+}
+/*@3.6 Cross Hair*/
+.cross-hair {
+	background-repeat:
+		repeat-x,
+		repeat-y;
+	background-position:0 0%;
+	background-size:4% 4%;
+	-webkit-animation:	cross 1.5s linear alternate;
+	-moz-animation:		cross 1.5s linear alternate;
+	-o-animation:		cross 1.5s linear alternate;
+	animation:			cross 1.5s linear alternate;
+}
+/*@3.7 Tank*/
+.tank {
+	text-align:center;
+	-webkit-animation:	drive 2s ease-out;
+	-moz-animation:		drive 2s ease-out;
+	-o-animation:		drive 2s ease-out;
+	animation:			drive 2s ease-out;
+}
+
+/*@3.8 Marching Ants*/
+.marching-ants {
+	background-image:
+		-webkit-linear-gradient(left, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		-webkit-linear-gradient(top, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		-webkit-linear-gradient(left, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		-webkit-linear-gradient(top, #9E9E9E 30%,rgba(0,0,0,0) 32%);
+	background-image:
+		-moz-linear-gradient(left, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		-moz-linear-gradient(top, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		-moz-linear-gradient(left, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		-moz-linear-gradient(top, #9E9E9E 30%,rgba(0,0,0,0) 32%);
+	background-image:
+		-o-linear-gradient(left, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		-o-linear-gradient(top, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		-o-linear-gradient(left, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		-o-linear-gradient(top, #9E9E9E 30%,rgba(0,0,0,0) 32%);
+	background-image:
+		linear-gradient(to right, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		linear-gradient(to right, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		linear-gradient(to right, #9E9E9E 30%,rgba(0,0,0,0) 32%),
+		linear-gradient(to right, #9E9E9E 30%,rgba(0,0,0,0) 32%);
+	background-size:
+		25px 1px,
+		1px 25px,
+		25px 1px,
+		1px 25px;
+	background-repeat:
+		repeat-x,
+		repeat-y,
+		repeat-x,
+		repeat-y;
+	background-position:
+		0 0,
+		100% 0,
+		100% 100%,
+		0 100%;
+	width:100%;
+	height:40%;
+	-webkit-animation:	ants 2s linear infinite;
+	-moz-animation:		ants 2s linear infinite;
+	-o-animation:		ants 2s linear infinite;
+	animation:			ants 2s linear infinite;
+}
+
+/*@3.9 Gears*/
+.gears {
+	text-align:center;
+	font-size:18px;
+	line-height:0.95em;
+}
+.gears div {
+	-webkit-animation:	spinn 2s linear infinite;
+	-moz-animation:		spinn 2s linear infinite;
+	-o-animation:		spinn 2s linear infinite;
+	animation:			spinn 2s linear infinite;
+}
+.gears div:nth-child(2),
+.gears div:last-child {
+	margin-left:5px;
+	-webkit-animation-direction:reverse;
+	-moz-animation-direction:	reverse;
+	-o-animation-direction:		reverse;
+	animation-direction:		reverse;
+}
+.gears div:last-child {
+	margin:-3px 20px 0 0;
+}
+/*@4 3-D Icons*/
+/*	I started to put the 3D CSS in here, but the number of divs & background just got insane
+	Seriously, look at the lenght of the CSS required for it
+	INSANE
+	So It's its own file
+	ddd.css
+	It even gets it's own link in the header, cause it's cool like that
+ */

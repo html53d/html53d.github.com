@@ -1,0 +1,93 @@
+BODY {
+	margin-left: 0px; margin-top: 0px; BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 18px; PADDING-TOP: 0px; FONT-FAMILY: "ËÎÌו"; BORDER-RIGHT-WIDTH: 0px
+}
+.html6game {
+	BORDER-RIGHT: #cbdcea 1px solid; BORDER-TOP: #cbdcea 1px solid; BACKGROUND: url(../images/xixi.gif) no-repeat left top; OVERFLOW: hidden; BORDER-LEFT: #cbdcea 1px solid; WIDTH: 300px; BORDER-BOTTOM: #cbdcea 1px solid; HEIGHT: 186px
+}
+.sl A:link {
+	COLOR: #014fad; TEXT-DECORATION: none
+}
+.sl A:visited {
+	COLOR: #014fad; TEXT-DECORATION: none
+}
+.sl A:active {
+	COLOR: #fe7302; TEXT-DECORATION: underline
+}
+.sl A:hover {
+	COLOR: #fe7302; TEXT-DECORATION: underline
+}
+
+.bd1lfti {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 11px; PADDING-TOP: 11px; HEIGHT: 34px
+}
+.bd1lfti DT {
+	FLOAT: left
+}
+.bd1lfti DD {
+	FLOAT: right; PADDING-TOP: 1px
+}
+
+
+#bd1lfimg {
+	BORDER-RIGHT: #e7e7e7 1px solid; MARGIN: 0px auto; OVERFLOW: hidden; BORDER-LEFT: #e7e7e7 1px solid; WIDTH: 280px; POSITION: relative; HEIGHT: 121px
+}
+#bd1lfimg DIV {
+	WIDTH: 100000px
+}
+#bd1lfimg DL {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 188px; POSITION: relative; HEIGHT: 112px
+}
+#bd1lfimg IMG {
+	BORDER-RIGHT: #e0e0e0 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #e0e0e0 1px solid; PADDING-LEFT: 1px; FILTER: alpha(opacity=30); PADDING-BOTTOM: 1px; BORDER-LEFT: #e0e0e0 1px solid; WIDTH: 174px; PADDING-TOP: 1px; BORDER-BOTTOM: #e0e0e0 1px solid; POSITION: absolute; HEIGHT: 111px; opacity: 0.30
+}
+#bd1lfimg DD {
+	BACKGROUND: #000; FILTER: alpha(opacity=10); LEFT: 2px; WIDTH: 174px; COLOR: #fff; BOTTOM: 0px; POSITION: absolute; TEXT-ALIGN: center; opacity: 0.10
+}
+#bd1lfimg A:hover IMG {
+	BORDER-RIGHT: #fe7302 1px solid; BORDER-TOP: #fe7302 1px solid; BORDER-LEFT: #fe7302 1px solid; BORDER-BOTTOM: #fe7302 1px solid
+}
+#bd1lfimg DL.show IMG {
+	FILTER: alpha(opacity=100); opacity: 1
+}
+#bd1lfimg DL.show DD {
+	FILTER: alpha(opacity=70); opacity: 0.7
+}
+
+#bd1lfsj {
+	BORDER-RIGHT: #e7e7e7 1px solid; MARGIN: 0px auto; OVERFLOW: hidden; BORDER-LEFT: #e7e7e7 1px solid; WIDTH: 280px; HEIGHT: 16px
+}
+#bd1lfsj UL {
+	WIDTH: 10000px
+}
+#bd1lfsj LI {
+	BORDER-RIGHT: #fff 1px solid; BACKGROUND: #f0f6fb; FLOAT: left; FONT: 10px Arial; WIDTH: 39px; CURSOR: pointer; COLOR: #7d7d7d; PADDING-TOP: 1px; HEIGHT: 15px; TEXT-ALIGN: center
+}
+#bd1lfsj LI.show {
+	BACKGROUND: #93bce1; COLOR: #fff
+}
+
+
+
+
+FORM {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 18px; PADDING-TOP: 0px; FONT-FAMILY: "ËÎÌו"; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 18px; PADDING-TOP: 0px; FONT-FAMILY: "ËÎÌו"; BORDER-RIGHT-WIDTH: 0px
+}
+DL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; LIST-STYLE-POSITION: outside; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; WHITE-SPACE: normal; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+DD {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; LIST-STYLE-POSITION: outside; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; WHITE-SPACE: normal; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+DT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; LIST-STYLE-POSITION: outside; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; WHITE-SPACE: normal; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+UL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; LIST-STYLE-POSITION: outside; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; WHITE-SPACE: normal; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; LIST-STYLE-POSITION: outside; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; WHITE-SPACE: normal; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+

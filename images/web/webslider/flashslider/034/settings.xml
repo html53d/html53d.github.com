@@ -1,0 +1,13 @@
+<GeneralSettings>
+	<thumbnailPosition>right</thumbnailPosition>
+	<backgroundAndBorderColor>ffffff</backgroundAndBorderColor>
+</GeneralSettings>
+
+<!--
+Change the value in the <thumbnailPosition> tage:
+left: the thumbnials will be on the left side of the flash movie;
+right: the thumbnials will be on the right side of the flash movie;
+
+Change the value in the <backgroundAndBorderColor> tage:
+this will change the background and border color
+-->

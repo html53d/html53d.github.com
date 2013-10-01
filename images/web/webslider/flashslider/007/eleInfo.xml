@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<banner>
+	<img1 linkUrl="http://www.veeqi.com/" winTarget="_blank" />
+	<img2 linkUrl="http://www.veeqi.com/" winTarget="_blank" />
+	<img3 linkUrl="http://www.veeqi.com/" winTarget="_blank" />
+	<img4 linkUrl="http://www.veeqi.com/" winTarget="_blank" />
+	<option
+	folder="images/img"
+	format=".jpg"
+	imgSx = "5"
+	imgSy = "13"
+	btnWidth = "31"
+	btnSx = "390"
+	btnSy = "245"
+	space ="1" />
+</banner>

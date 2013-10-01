@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0013)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>前端开发网（HTML6GAME） - html5，flash游戏的分享 - web前端开发资讯.交流站点</title>
+
+<meta name="keywords" content="原创作品,教程,代码,html5游戏,flash游戏,web前端开发,javascript,rpg,网页游戏,手机游戏,程序源码,flash幻灯片,webgame展示,游戏开发" />
+<meta name="description" content="前端开发网（www.html6game.com），专注于html5和flash游戏，为程序员提供web开发教程。另外提供国内一流的flash和js幻灯片，在这里有最近的资讯和最前沿的开发技术！" />
+
+<LINK rev=stylesheet media=all 
+href="images/comic.css" type=text/css rel=stylesheet>
+<SCRIPT src="images/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="images/pic.js" type=text/javascript></SCRIPT>
+
+</HEAD>
+
+<BODY style="font-size:12px;">
+
+<DIV class=flashBox>
+<DIV id=SwitchBigPic>
+
+<DIV class=bigPic><A href="http://www.html6game.com" title="南家三姐妹 欢迎回来" target="_blank" blockid="1843"><IMG alt="南家三姐妹 欢迎回来" src="images/01.jpg"></A></DIV>
+
+<DIV class=bigPic><A href="http://www.html6game.com" title="尸姬 玄" target="_blank" blockid="1843"><IMG alt="尸姬 玄" src="images/02.jpg"></A></DIV>
+
+<DIV class=bigPic><A href="http://www.html6game.com" title="黑神 The Animation" target="_blank" blockid="1843"><IMG alt="黑神 The Animation" src="images/03.jpg"></A></DIV>
+
+<DIV class=bigPic><A href="http://www.html6game.com" title="玛利亚狂热 " target="_blank" blockid="1843"><IMG alt="玛利亚狂热 " 
+src="images/04.jpg"></A></DIV></DIV>
+
+<H2 id=SwitctTitle_main></H2>
+<P id=SwitctTitle_sub></P>
+
+<UL id=SwitchNav>
+  <LI><IMG alt="南家三姐妹 欢迎回来" 
+  src="images/01.gif"><A 
+  title="南家三姐妹 欢迎回来" href="http://www.html6game.com" 
+  blockid="1843" target="_blank" >南家三姐妹 欢迎回来</A> </LI>
+  <LI><IMG alt="尸姬 玄" 
+  src="images/02.gif"><A 
+  title="尸姬 玄" href="http://www.html6game.com" blockid="1843" target="_blank" >尸姬 
+  玄</A> </LI>
+  <LI><IMG alt="黑神 The Animation" 
+  src="images/03.gif"><A 
+  title="黑神 The Animation" href="http://www.html6game.com" 
+  blockid="1843" target="_blank" >黑神 The Animation</A> </LI>
+  <LI><IMG alt="玛利亚狂热 " 
+  src="images/04.gif"><A 
+  title="玛利亚狂热 " href="http://www.html6game.com" blockid="1843" target="_blank" >玛利亚狂热 
+  </A></LI></UL>
+<DIV class=bg></DIV></DIV>
+
+
+
+<SCRIPT>
+				var SwitchTitles = new Array() ;
+				SwitchTitles[0] = new Array() ;
+SwitchTitles[0]['main'] = "南家三姐妹 欢迎回来" ;
+SwitchTitles[0]['sub'] = "第01话 年初之时" ;
+SwitchTitles[0]['link'] = "http://www.html6game.com" ;
+SwitchTitles[1] = new Array() ;
+SwitchTitles[1]['main'] = "尸姬 玄" ;
+SwitchTitles[1]['sub'] = "第一话 光之路线" ;
+SwitchTitles[1]['link'] = "http://www.html6game.com" ;
+SwitchTitles[2] = new Array() ;
+SwitchTitles[2]['main'] = "黑神 The Animation" ;
+SwitchTitles[2]['sub'] = "第一话 三位一在" ;
+SwitchTitles[2]['link'] = "http://www.html6game.com" ;
+SwitchTitles[3] = new Array() ;
+SwitchTitles[3]['main'] = "玛利亚狂热 " ;
+SwitchTitles[3]['sub'] = "第一话 戏虐之吻" ;
+SwitchTitles[3]['link'] = "http://www.html6game.com" ;
+
+
+				var bigswitch = new SwitchPic(
+					{
+						bigpic:"SwitchBigPic",
+						switchnav:"SwitchNav",
+						selectstyle:"currA",
+						objname:"bigswitch",
+						switchtitles:SwitchTitles,
+						switchtitleconfig:["main","sub"]
+					}
+				) ;
+				bigswitch.goSwitch(bigswitch,0);
+				bigswitch.autoSwitchTimer = setTimeout("bigswitch.autoSwitch(bigswitch) ;", 3000);
+</SCRIPT>
+
+</BODY></HTML>

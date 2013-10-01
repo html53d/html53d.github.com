@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<jpgrotator>
+
+	<parameters>
+		<rotatetime>3</rotatetime>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<transition>fluids</transition>
+	</parameters>
+	
+<photos>
+<photo path="images/1.jpg" link="http://www.html6game.com/" />
+<photo path="images/2.jpg" link="http://www.html6game.com/" />
+<photo path="images/3.jpg" link="http://www.html6game.com/" />
+<photo path="images/4.jpg" link="http://www.html6game.com/" />
+<photo path="images/5.jpg" link="http://www.html6game.com/" />
+
+</photos>
+
+</jpgrotator>
+
+
+/*****************************************************/
+
+rotatetime：幻灯图片显示间隔：推荐2-10秒最好
+
+randomplay：是否随机播放，true为是，false为否
+
+shownavigation：是否显示数字按钮导航，true为是，false为否
+
+transition：变换效果．共有四种，fade, bgfade, fluids, blocks, circles．
+
+photos标签为图片的路径和链接地址．
+
+/******************************************************/

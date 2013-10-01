@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/highslide.css" />
+
+    <script type="text/javascript" src="js/highslide-with-gallery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <title>Creating photo galleries with highslide</title>
+</head>
+<body>
+<div class="example">
+
+    <!-- photo listing -->
+    <h4>Photo listing</h4>
+    <div class="thumbwrapper">
+        <a onclick="return hs.expand(this, { outlineType: 'rounded-white' })" class="highslide" href="images/pic1.jpg">
+            <img title="Enlarge" alt="Enlarge" src="images/thumb_pic1.jpg" id="thumb1">
+        </a>
+        <div class="highslide-caption">
+            Full photo description #1. <a rel="nofollow" href="http://www.google.com/">Links</a> and another custom HTML allowed too.<br />
+            <div style="height: 34px">
+                <a href="#" class="lcontrol" onclick="return hs.next(this)">next<br /><small>right arrow key</small></a>
+                <a href="#" class="control" onclick="return hs.close(this)">close</a>
+                <a href="#" class="control" onclick="return false">move</a>
+            </div>
+        </div>
+    </div>
+    <div class="thumbwrapper">
+        <a onclick="return hs.expand(this, { outlineType: 'rounded-white' })" class="highslide" href="images/pic2.jpg">
+            <img title="Enlarge" alt="Enlarge" src="images/thumb_pic2.jpg" id="thumb2">
+        </a>
+        <div class="highslide-caption">
+            Full photo description #2. <a rel="nofollow" href="#2">Links</a> and another custom HTML allowed too.<br />
+            <div style="height: 34px">
+                <a href="#" class="lcontrol" onclick="return hs.previous(this)" style="float:left; display: block">previous<br /><small>left arrow key</small></a>
+                <a href="#" class="lcontrol" onclick="return hs.next(this)">next<br /><small>right arrow key</small></a>
+                <a href="#" class="control" onclick="return hs.close(this)">close</a>
+                <a href="#" class="control" onclick="return false">move</a>
+            </div>
+        </div>
+    </div>
+    <div class="thumbwrapper">
+        <a onclick="return hs.expand(this, { outlineType: 'rounded-white' })" class="highslide" href="images/pic3.jpg">
+            <img title="Enlarge" alt="Enlarge" src="images/thumb_pic3.jpg" id="thumb3">
+        </a>
+        <div class="highslide-caption">
+            Full photo description #3. <a rel="nofollow" href="#3">Links</a> and another custom HTML allowed too.
+        </div>
+    </div>
+    <div class="thumbwrapper">
+        <a onclick="return hs.expand(this, { outlineType: 'rounded-black', captionOverlay: { position: 'rightpanel'} })" class="highslide" href="images/pic4.jpg">
+            <img title="Enlarge" alt="Enlarge" src="images/thumb_pic4.jpg" id="thumb4">
+        </a>
+        <div class="highslide-caption">
+            Full photo description #4. <a rel="nofollow" href="#4">Links</a> and another custom HTML allowed too.
+        </div>
+    </div>
+    <div class="thumbwrapper">
+        <a onclick="return hs.expand(this, { outlineType: 'rounded-black', captionOverlay: { position: 'rightpanel'} })" class="highslide" href="images/pic5.jpg">
+            <img title="Enlarge" alt="Enlarge" src="images/thumb_pic5.jpg" id="thumb5">
+        </a>
+        <div class="highslide-caption">
+            Full photo description #5. <a rel="nofollow" href="#5">Links</a> and another custom HTML allowed too.
+        </div>
+    </div>
+    <div class="thumbwrapper">
+        <a onclick="return hs.expand(this, { outlineType: 'rounded-black', captionOverlay: { position: 'rightpanel'} })" class="highslide" href="images/pic6.jpg">
+            <img title="Enlarge" alt="Enlarge" src="images/thumb_pic6.jpg" id="thumb6">
+        </a>
+        <div class="highslide-caption">
+            Full photo description #6. <a rel="nofollow" href="#6">Links</a> and another custom HTML allowed too.
+        </div>
+    </div>
+    <div style="clear:both"></div>
+
+    <!-- photo gallery #1 -->
+    <h4>Photo gallery #1</h4>
+    <div class="gallery-examples highslide-gallery">
+        <div class="thumbwrapper">
+            <a onclick="return hs.expand(this, galleryOptions)" class="highslide" href="images/pic7.jpg">
+                <img title="Enlarge" alt="Enlarge" src="images/thumb_pic7.jpg">
+            </a>
+        </div>
+        <div class="thumbwrapper">
+            <a onclick="return hs.expand(this, galleryOptions)" class="highslide" href="images/pic8.jpg">
+                <img title="Enlarge" alt="Enlarge" src="images/thumb_pic8.jpg">
+            </a>
+        </div>
+        <div class="thumbwrapper">
+            <a onclick="return hs.expand(this, galleryOptions)" class="highslide" href="images/pic9.jpg">
+                <img title="Enlarge" alt="Enlarge" src="images/thumb_pic9.jpg">
+            </a>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+
+    <!-- photo gallery #2 -->
+    <h4>Photo gallery #2</h4>
+    <div class="gallery-examples highslide-gallery">
+        <div class="thumbwrapper">
+            <a onclick="return hs.expand(this, galleryOptions2)" class="highslide" href="images/pic10.jpg">
+                <img title="Enlarge" alt="Enlarge" src="images/thumb_pic10.jpg">
+            </a>
+        </div>
+        <div class="thumbwrapper">
+            <a onclick="return hs.expand(this, galleryOptions2)" class="highslide" href="images/pic11.jpg">
+                <img title="Enlarge" alt="Enlarge" src="images/thumb_pic11.jpg">
+            </a>
+        </div>
+        <div class="thumbwrapper">
+            <a onclick="return hs.expand(this, galleryOptions2)" class="highslide" href="images/pic12.jpg">
+                <img title="Enlarge" alt="Enlarge" src="images/thumb_pic12.jpg">
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

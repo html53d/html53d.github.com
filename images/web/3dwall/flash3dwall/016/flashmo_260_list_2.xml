@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+	
+	<config 
+		enable_auto_play="true"
+		auto_play_duration="2"
+		auto_align="true"
+		folder="images/"
+		tween_duration="0.5"
+		photo_border_size="0"
+		photo_border_color="0xFFFFFF"
+		photo_alpha="false"
+		x_spacing="100"
+		y_spacing="0"
+		side_photo_count="4">
+	</config>
+	
+	<photo>
+		<filename>300x300_242_mini_tour.jpg</filename>
+		<description>Mini Tour is a Flash XML Template featuring beautiful motion transition effects.</description>
+		<url>http://www.flashmo.com/preview/flashmo_242_mini_tour</url>
+		<target>_parent</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_246_black_pad.jpg</filename>
+		<description>Black Pad is a fluid layout XML flash website that is 100% width and height with minimum values defined by SWFfit.</description>
+		<url>http://www.flashmo.com/preview/flashmo_246_black_pad</url>
+		<target>_self</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_248_clean_gallery.jpg</filename>
+		<description>Clean Gallery is a fluid layout Flash website featuring drag to slide thumbnails and a horizontal scrollbar.</description>
+		<url>http://www.flashmo.com/preview/flashmo_248_clean_gallery</url>
+		<target>_blank</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_249_mega_grid.jpg</filename>
+		<description>Mega Grid is a free flash image gallery enabling touch to drag thumbnails and scroll them horizontally.</description>
+		<url>http://www.flashmo.com/preview/flashmo_249_mega_grid</url>
+		<target>_self</target>
+	</photo> 
+	
+	<photo>
+		<filename>300x300_251_content_grid.jpg</filename>
+		<description>Content Grid is a very flexible display gallery using touch to slide items horizontally and re-position items upon browser resize.</description>
+		<url>http://www.flashmo.com/preview/flashmo_251_content_grid</url>
+		<target>_parent</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_252_bubble.jpg</filename>
+		<description>Bubble Template is a beautiful bubbles-animated website that supports resizing browser and fullscreen.</description>
+		<url>http://www.flashmo.com/preview/flashmo_252_bubble</url>
+		<target>_blank</target>
+	</photo> 
+	
+	<photo>
+		<filename>300x300_253_neon.jpg</filename>
+		<description>Neon Template is a free Flash XML website integrated with HTML-CSS supported vertical content list.</description>
+		<url>http://www.flashmo.com/preview/flashmo_253_neon</url>
+		<target>_self</target>
+	</photo> 
+	
+	<photo>
+		<filename>300x300_257_single_cord.jpg</filename>
+		<description>Single Cord is new Flash XML Template with an attractive background and accordion slider for page transitions.</description>
+		<url>http://www.flashmo.com/preview/flashmo_257_single_cord</url>
+		<target>_parent</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_258_dark_focus.jpg</filename>
+		<description>Dark Focus is decorated with black and white photos in simple fade in out transition.</description>
+		<url>http://www.flashmo.com/preview/flashmo_258_dark_focus</url>
+		<target>_blank</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_259_fluid_gallery.jpg</filename>
+		<description>Fluid Gallery is a free image gallery that can be either 100% fluid or fixed width and height. Configure XML variables to customize the gallery.</description>
+		<url>http://www.flashmo.com/preview/flashmo_259_fluid_gallery</url>
+		<target>_parent</target>
+	</photo>
+
+</photos>

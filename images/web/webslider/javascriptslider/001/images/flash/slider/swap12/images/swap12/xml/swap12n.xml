@@ -1,0 +1,73 @@
+﻿<html6game>
+    <!-- 囧o(∩_∩)o 此flash_slider_无法破解，请不要花时间喽！ o(∩_∩)o囧<This flash_slider you cannot decrypt, please don't waste time> end --> 
+    <setup path="images/flash/slider/swap12/images/swap12/flashpic/" >
+           <imgHeight>489</imgHeight>
+           <imgWidth>960</imgWidth>
+           <thumbHeight>0</thumbHeight>
+           <thumbWidth>0</thumbWidth>
+           <autoPlay>6</autoPlay>
+           <backgroundBorder>0</backgroundBorder>
+           <bgColor>#333333</bgColor>
+           <thumbActiveColor>#FF0000</thumbActiveColor>
+           <thumbColor>#999999</thumbColor>
+           <thumbRollColor>#16776960</thumbRollColor>
+           <backgroundCorner>0</backgroundCorner>
+           <imgCorner>0</imgCorner>
+           <thumbCorner>0</thumbCorner>
+           <thumbMaskCorner>0</thumbMaskCorner>
+           <scrollSpeed>0</scrollSpeed>
+           <showLoader>true</showLoader>
+           <thumbSpace>4</thumbSpace>
+		   <thumbRowGap>10</thumbRowGap>
+           <thumbAlpha>1</thumbAlpha>
+           <thumbBorder>0</thumbBorder>
+           <thumbPosition>right</thumbPosition>
+           <transitionSpeed>1</transitionSpeed>
+           <transitionType>wipe</transitionType>
+           <stopAutoOnClick>false</stopAutoOnClick>
+           <randomImages>false</randomImages>
+           <loopImages>true</loopImages>
+           <showControls>false</showControls>
+    </setup>
+	<item>
+		<thumb>001a.swf</thumb>
+		<img>001.swf</img>
+		<caption>载入swf flash by html6game  swf_001</caption>
+	</item>
+    <item>
+		<thumb>002a.swf</thumb>
+		<img>002.swf</img>
+		<caption>囧o(∩_∩)o 无限图幻灯片 flash by html6game</caption>
+		<imgLink>http://www.html6game.com</imgLink>
+	</item>
+	<item>
+		<thumb>1a.jpg</thumb>
+		<img>1.jpg</img>
+		<caption>囧o(∩_∩)o 无限图幻灯片 flash by html6game  MM01</caption>
+		<imgLink>http://www.sina.com</imgLink>
+	</item>
+	<item>
+		<thumb>2a.jpg</thumb>
+		<img>2.jpg</img>
+		<caption>囧o(∩_∩)o 无限图幻灯片 flash by html6game  MM第3张</caption>
+		<imgLink>http://www.qq.com</imgLink>
+	</item>
+	<item>
+		<thumb>3a.jpg</thumb>
+		<img>3.jpg</img>
+		<caption>囧o(∩_∩)o 无限图幻灯片 flash by html6game  MM第4张</caption>
+		<imgLink>http://www.sohu.com</imgLink>
+	</item>
+	<item>
+		<thumb>4a.jpg</thumb>
+		<img>4.jpg</img>
+		<caption>囧o(∩_∩)o 无限图幻灯片 flash by html6game  MM第5张</caption>
+		<imgLink>http://www.tom.com</imgLink>
+	</item>
+	<item>
+		<thumb>5a.jpg</thumb>
+		<img>5.jpg</img>
+		<caption>囧o(∩_∩)o 无限图幻灯片 flash by html6game  MM第6张</caption>
+		<imgLink>http://www.zol.com.cn</imgLink>
+	</item>
+</html6game>

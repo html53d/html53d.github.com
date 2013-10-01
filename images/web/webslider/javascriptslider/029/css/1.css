@@ -1,0 +1,25 @@
+BODY {
+	margin-left: 0px; margin-top: 0px; FONT-SIZE: 12px; FONT-FAMILY: simsun
+}
+
+A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+
+
+
+.Hr_1 IMG {
+	BORDER-RIGHT: #a3afc5 1px solid; BORDER-TOP: #a3afc5 1px solid; FLOAT: none; BORDER-LEFT: #a3afc5 1px solid; BORDER-BOTTOM: #a3afc5 1px solid
+}
+.Hr_11 {
+	BORDER-TOP: #a3afc5 1px solid; MARGIN: 0px 0px 0px 312px; WIDTH: 124px; LINE-HEIGHT: 32px; POSITION: absolute
+}
+.Hr_11 .nor {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(a.gif) 100% -1000px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 104px; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.Hr_11 .act {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(a.gif) 100% -1041px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 104px; COLOR: #fff; PADDING-TOP: 0px; TEXT-DECORATION: none
+}

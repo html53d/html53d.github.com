@@ -1,0 +1,319 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<main>
+
+
+
+
+
+<super link='#' name='关于索尼' img='images/button_gysn_off.gif'> 
+   
+
+<sub link='http://www.html6game.com/' name='索尼全球'>
+
+</sub>
+
+<sub link='http://www.html6game.com/' name='索尼在中国'>
+
+</sub>
+</super>
+ 
+
+
+
+
+<super link='#' name='索尼产品' img='images/button_sncp_off.gif'> 
+   
+
+<sub link='#' name='消费电子产品'>
+
+
+<tree link='http://www.html6game.com/' name='消费电子产品首页'>
+   
+</tree>
+
+<tree link='#' name='家庭影像产品'>
+   
+<tree link='http://www.html6game.com/' name='液晶电视机'>
+   
+</tree>
+<tree link='http://www.html6game.com/' name='蓝光播放器'>
+   
+</tree>
+<tree link='http://www.html6game.com/' name='家庭影音系统'>
+   
+</tree>
+<tree link='http://www.html6game.com/' name='ES多声道影音发大器'>
+   
+</tree>
+<tree link='http://www.html6game.com/' name='迷你音响组合'>
+   
+</tree>
+<tree link='http://www.html6game.com/' name='视频投影机'>
+   
+</tree>
+</tree>
+
+<tree link='' name='数码影像产品'>
+   
+<tree link='http://www.sony.com.cn/handycam/index.htm?cid=0010' name='数码摄像机'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/cyber-shot/index.htm?cid=0011' name='数码相机'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/dslr/index.htm?cid=0012' name='数码单反相机'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/dpp/index.htm?cid=0014' name='数码照片打印机'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/dpf/index.htm?cid=0015' name='数码相框'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/memorystick/index.htm?cid=0016' name='Memory Stick?'>
+   
+</tree>
+</tree>
+
+<tree link='' name='个人电脑及周边产品'>
+   
+<tree link='http://www.sonystyle.com.cn/products/vaio/index.htm?cid=0017' name='个人电脑'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/ed/cp/index.htm?cid=0018' name='电脑周边外设'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/mv/index.htm?cid=0019' name='MV随身存'>
+   
+</tree>
+</tree>
+
+<tree link='' name='个人音频产品'>
+   
+<tree link='http://www.sony.com.cn/walkman/index.htm?cid=0020' name='闪存音乐/MP4播放器'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/icd/index.htm?cid=0021' name='数码录音棒'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/personal_audio/new_earphone/index.htm?cid=0022' name='耳机系列'>
+   
+</tree>
+</tree>
+
+<tree link='' name='民用记录媒体及能源'>
+   
+<tree link='http://www.sony.com.cn/products/rme/index.html?cid=0023' name='光学记录媒体'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/rme/index.html?cid=0024' name='民用记录媒体'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/mv/index.htm?cid=0025' name='闪存记录媒体'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/rme/index.html?cid=0026' name='充电器及充电电池'>
+   
+</tree>
+</tree>
+</sub>
+
+<sub link='' name='专业产品'>
+
+
+<tree link='' name='专业系统产品'>
+   
+<tree link='http://pro.sony.com.cn/default.aspx?cid=0027' name='广播电视节目制作设备'>
+   
+</tree>
+<tree link='' name='商业解决方案产品'>
+   
+<tree link='http://pro.sony.com.cn/sonyb2b/default.aspx?cid=0028' name='视频安防'>
+   
+</tree>
+<tree link='http://pro.sony.com.cn/sonyb2b/default.aspx?cid=0029' name='视频会议系统'>
+   
+</tree>
+<tree link='http://pro.sony.com.cn/sonyb2b/default.aspx?cid=0030' name='专业打印机'>
+   
+</tree>
+<tree link='http://pro.sony.com.cn/sonyb2b/default.aspx?cid=0031' name='影像传感器'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/dpj/index.htm?cid=0032' name='投影机'>
+   
+</tree>
+</tree>
+</tree>
+
+<tree link='' name='电子元器件'>
+   
+<tree link='http://www.sony.net/Products/SC-HP/index.html?cid=0033' name='半导体器件'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/ed/op/index.html?cid=0034' name='光碟产品元器件'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/ed/battery/index.html?cid=0035' name='电池产品'>
+   
+</tree>
+<tree link='http://www.sony.net/Products/felica/index.html?cid=0036' name='Felica产品'>
+   
+</tree>
+<tree link='http://www.sonycid.jp/en/index.html?cid=0037' name='化学产品'>
+   
+</tree>
+</tree>
+
+<tree link='' name='专业记录媒体'>
+   
+<tree link='http://www.sony.com.cn/products/rme/index.html?cid=0038' name='专业记录媒体'>
+   
+</tree>
+<tree link='http://www.sony.com.cn/products/rme/index.html?cid=0039' name='数据存储媒体'>
+   
+</tree>
+</tree>
+</sub>
+</super>
+ 
+
+
+
+
+<super link='#' name='订购与注册' img='images/button_dgyzc_off.gif'> 
+   
+
+<sub link='http://www.sonystyle.com.cn/index.htm?cid=0040' name='在线订购'>
+
+</sub>
+
+<sub link='http://www.sony.com.cn/dealer/dealer.htm?cid=0041' name='线下购买'>
+
+</sub>
+
+<sub link='https://www.sonystyle.com.cn/b2c_sony/b2c/productRegister.do?cid=0042' name='索尼产品注册'>
+
+</sub>
+</super>
+ 
+
+
+
+
+<super link='#' name='服务与支持' img='images/button_fwyzc_off.gif'> 
+   
+
+<sub link='' name='消费电子产品'>
+
+
+<tree link='http://service.sony.com.cn/KB/?cid=0043' name='客户服务中心'>
+   
+</tree>
+
+<tree link='http://service.sony.com.cn/vaio/General/Homepage.aspx?cid=0044' name='VAIO技术支持'>
+   
+</tree>
+
+<tree link='http://service.sony.com.cn/KB/display.asp?p_item=2&pageid=1&id=1&parent_id=0&cid=0045' name='常见问题'>
+   
+</tree>
+
+<tree link='http://service.sony.com.cn/KB/station.asp?p_item=1&pageid=2&cid=0046' name='服务网络'>
+   
+</tree>
+
+<tree link='http://service.sony.com.cn/KB/display.asp?p_item=4&pageid=1&id=4&parent_id=0&cid=0047' name='产品说明书'>
+   
+</tree>
+</sub>
+
+<sub link='http://pro.sony.com.cn/serviceWeb/notify.aspx?cid=0048' name='专业系统产品'>
+
+</sub>
+</super>
+ 
+
+
+
+
+<super link='http://www.sony.com.cn/csr/index.html' name='企业社会责任' img='images/button_qyshzr_off.gif'> 
+   
+
+<sub link='http://www.sony.com.cn/csr/html/news/index.html?cid=0049' name='最新动态'>
+
+</sub>
+
+<sub link='http://www.sony.com.cn/csr/html/a/list.html?cid=0050' name='CSR方针'>
+
+</sub>
+
+<sub link='http://www.sony.com.cn/csr/html/b/list.html?cid=0051' name='人文索尼'>
+
+</sub>
+
+<sub link='http://www.sony.com.cn/csr/html/c/list.html?cid=0052' name='公益索尼'>
+
+</sub>
+
+<sub link='http://www.sony.com.cn/csr/html/d/list.html?cid=0053' name='环保索尼'>
+
+</sub>
+
+<sub link='http://www.explorascience.com.cn/default.asp?cid=0054' name='索尼探梦'>
+
+</sub>
+</super>
+ 
+
+
+
+
+<super link='http://www.sony.com.cn/news_center/news_center.htm' name='新闻中心' img='images/button_xwzx_off.gif'> 
+   
+
+<sub link='http://www.sony.com.cn/news_center/corporate.htm?cid=0055' name='公司新闻'>
+
+</sub>
+
+<sub link='http://www.sony.com.cn/news_center/press_release/product.htm?cid=0056' name='产品技术新闻'>
+
+</sub>
+
+<sub link='http://www.sony.com.cn/news_center/hd_world/index.htm?cid=0057' name='高清娱乐生活'>
+
+</sub>
+
+<sub link='http://www.sony.com.cn/about_sony/sony_global/2098.htm?cid=0058' name='Sony Style时尚资讯'>
+
+</sub>
+</super>
+ 
+
+
+
+
+<super link='#' name='人才招聘' img='images/button_rczp_off.gif'> 
+   
+
+<sub link='http://www.html6game.com/' name='社会招聘'>
+
+</sub>
+
+<sub link='http://www.html6game.com/' name='校园招聘'>
+
+</sub>
+
+<sub link='http://www.sony.com.cn/careers/index.html?cid=0061' name='实习计划'>
+
+</sub>
+
+<sub link='http://www.html6game.com/' name='html6game'>
+
+</sub>
+</super>
+ 
+
+
+ 
+</main>

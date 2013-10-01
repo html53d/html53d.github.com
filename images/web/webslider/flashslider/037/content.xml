@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+  <gallery Name="对应目录1" Folder="Gallery1">
+    <image Thumb="thumb1.jpg" Large="image1.jpg" Caption="缩略图部分介绍" Colour="293640">
+	<copy><![CDATA[<p>这里是图片介绍部分<a href="http://www.html6game.com" target="_blank">hyperlinks</a></p>]]></copy>
+    </image>
+    <image Thumb="thumb2.jpg" Large="image2.jpg" Caption="Autumn River" Colour="181f0a">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb3.jpg" Large="image3.jpg" Caption="This caption can be as long as you want it to be" Colour="440002">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb4.jpg" Large="image4.jpg" Caption="Forest Statue" Colour="3a3f36">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb5.jpg" Large="image5.jpg" Caption="Red Flower" Colour="2e0211">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb6.jpg" Large="image6.jpg" Caption="Moss Stump" Colour="0D2805">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb7.jpg" Large="image7.jpg" Caption="Yield Sign" Colour="3D3E42">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb8.jpg" Large="image8.jpg" Caption="Rusted thing" Colour="170200">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb9.jpg" Large="image9.jpg" Caption="Water Drops" Colour="333333">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb10.jpg" Large="image10.jpg" Caption="Yellow Numbers" Colour="141414">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+  </gallery>
+  <gallery Name="对应目录2" Folder="Gallery2">
+    <image Thumb="thumb1.jpg" Large="image1.jpg" Caption="Red Flower" Colour="2e0211">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb2.jpg" Large="image2.jpg" Caption="Autumn River" Colour="181f0a">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb3.jpg" Large="image3.jpg" Caption="This caption can be as long as you want it to be" Colour="440002">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb4.jpg" Large="image4.jpg" Caption="Trees by the lake" Colour="293640">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb5.jpg" Large="image5.jpg" Caption="Moss Stump" Colour="0D2805">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb6.jpg" Large="image6.jpg" Caption="Water Drops" Colour="333333">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+  </gallery>
+<gallery Name="对应目录3" Folder="Gallery3">
+    <image Thumb="thumb1.jpg" Large="image1.jpg" Caption="Forest Statue" Colour="3a3f36">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb2.jpg" Large="image2.jpg" Caption="Yield Sign" Colour="3D3E42">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb3.jpg" Large="image3.jpg" Caption="Rusted thing" Colour="170200">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+    <image Thumb="thumb4.jpg" Large="image4.jpg" Caption="Yellow Numbers" Colour="141414">
+	<copy><![CDATA[<p>This is HTML formatted text which can support <a href="http://www.html6game.com" target="_blank">hyperlinks</a>. You can also have special characters for example: âæèêíó. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>]]></copy>
+    </image>
+  </gallery>
+</content>

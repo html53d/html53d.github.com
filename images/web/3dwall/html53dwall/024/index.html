@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<!--
+
+
+        _        _                                    _   _       
+       | |      | |                                  | | | |      
+  __,  | |   _  | |     __,          _   __,  __,    | | | |  __  
+ /  |  |/  |/ \_|/ \   /  |    |  |_|/  /  | /  |    |/  |/  /    
+ \_/|_/|__/|__/ |   |_/\_/|_/   \/  |__/\_/|/\_/|_/  |__/|__/\___/
+          /|                              /|                      
+          \|                              \|                      
+		  
+http://www.alphavega.com
+written by hand by: stephen giorgi	 steve@deadlycomputer.com
+	
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CSS Loading Icons</title>
+<link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Macondo+Swash+Caps|Istok+Web:400,700|Italiana' />
+<link rel="stylesheet" type="text/css" href="css/loading.min.css" />
+<link rel="stylesheet" type="text/css" href="css/ddd.min.css" />
+</head>
+
+<body class="ps1000 p3d">
+<input type="radio" id="type-about" name="tabe" />
+<input type="radio" id="type-gallery" name="tabe" checked />
+<nav id="info-nav">
+	<ul>
+		<li class="type-about"><label for="type-about">About</label></li>
+		<li class="type-gallery"><label for="type-gallery">Gallery</label></li>
+	</ul>
+</nav> <!-- closes #info-nav -->
+<section id="About">
+	<article>
+		<p>All of these loading icons* are created with one single element, and some&dagger; CSS. Not. One. Single. Image.</p>
+		<h3>Isn't that amazing?</h3>
+		<p>The bulk of them are made possible by stacking multiple gradient backgrounds.  Then with the help of some carefully selected keyframe animations we can get some infinite looping loading icons.</p>
+		<p>There's a few icons that make use of graphic fonts.  Combine those with gradients and you can go crazy with what's possible.</p>
+		<p class="note">*3-D icons are made up of many elements since with a single one, we only have 3 elements to create</p>
+		<p class="note">&dagger;some CSS is subjective</p>
+		<p>And yes, all of thses icons are transparent, just try changing the background colors/pattern:
+			<ul class="bg-colors">
+				<li class="none"><label for="none">.</label></li>
+				<li class="green"><label for="green"></label></li>
+				<li class="blue"><label for="blue"></label></li>
+				<li class="black"><label for="black"></label></li>
+				<li class="brown"><label for="brown"></label></li>
+				<li class="pattern-a"><label for="pattern-a"></label></li>
+				<li class="pattern-b"><label for="pattern-b"></label></li>
+			</ul>
+		</p>
+	</article>
+</section> <!-- closes #About -->
+<section id="Gallery">
+	<section id="icon-gallery" class="p3d ps1000">
+		<input type="radio" name="bg" id="none" checked />
+		<input type="radio" name="bg" id="green" />
+		<input type="radio" name="bg" id="blue" />
+		<input type="radio" name="bg" id="black" />
+		<input type="radio" name="bg" id="brown" />
+		<input type="radio" name="bg" id="pattern-a" />
+		<input type="radio" name="bg" id="pattern-b" />
+		<input type="radio" name="tab" id="circles" checked />
+		<input type="radio" name="tab" id="bars" />
+		<input type="radio" name="tab" id="strange" />
+		<input type="radio" name="tab" id="ddd" />
+		<nav id="tab-holder">
+			<ul class="tab-list">
+				<li class="circles"><label for="circles">Circles</label></li>
+				<li class="bars"><label for="bars">Bars</label></li>
+				<li class="strange"><label for="strange">Strange</label></li>
+				<li class="ddd"><label for="ddd">3-D</label></li>
+			</ul>
+		</nav> <!-- closes #tab-holder -->
+		<article id="circle-holder" class="p3d">
+			<ul>
+				<li class="pulse-icon">
+					<h2>Pulse</h2>
+					<div class="icon pulse"></div>
+				</li>
+				<li class="chase-icon">
+					<h2>Chase</h2>
+					<div class="icon circle chase"></div>
+				</li>
+				<li class="quarter-circle">
+					<h2>&frac14; circle</h2>
+					<div class="icon circle circle-1-4"></div>
+				</li>
+				<li class="half-circle">
+					<h2>&frac12; circle</h2>
+					<div class="icon circle circle-1-2"></div>
+				</li>
+				<li class="simon-circle">
+					<h2>Simon circle</h2>
+					<div class="icon circle circle-1-4 simon ease-quick-out"></div>
+				</li>
+				<li class="radar-icon">
+					<h2>Radar</h2>
+					<div class="icon radar"></div>
+				</li>
+				<li class="grow-icon">
+					<h2>Grow</h2>
+					<div class="icon grow"></div>
+				</li>
+			</ul>
+		</article> <!-- closes #circle-holder -->
+		<article id="bar-holder" class="p3d">
+			<ul>
+				<li class="bar-full-icon">
+					<h2>Striped</h2>
+					<div class="icon bar bar-stripe ease-quick-out"></div>
+				</li>
+				<li class="bar-forever-icon">
+					<h2>Forever</h2>
+					<div class="icon bar bar-stripe bar-forever"></div>
+				</li>
+				<li class="power-bar-icon">
+					<h2>Power Bar</h2>
+					<div class="icon bar power-bar"></div>
+				</li>
+				<li class="bar-icon">
+					<h2>Round Bar</h2>
+					<div class="icon bar bar-round"></div>
+				</li>
+				<li class="bar-alternate-icon">
+					<h2>Bar Alternate</h2>
+					<div class="icon bar bar-alternate bar-round"></div>
+				</li>
+				<li class="bar-vertical-icon">
+					<h2>Vertical Bar</h2>
+					<div class="icon bar-stripe vertical-bar"></div>
+				</li>
+			</ul>
+		</article> <!-- closes #bar-holder -->
+		<article id="strange-holder" class="p3d">
+			<ul>
+				<li class="pendulum-icon">
+					<h2>Pendulum</h2>
+					<div class="icon pendulum"></div>
+				</li>
+				<li class="hour-glass-icon">
+					<h2>Hour Glass</h2>
+					<div class="icon hour-glass"></div>
+				</li>
+				<li class="ball-icon">
+					<h2>Ball</h2>
+					<div class="icon baseball"></div>
+				</li>
+				<li class="flower-icon">
+					<h2>Flower</h2>
+					<div class="icon flower"></div>
+				</li>
+				<li class="dots-icon">
+					<h2>Dots</h2>
+					<div class="icon dots"></div>
+				</li>
+				<li class="cross-hair-icon">
+					<h2>Cross Hair</h2>
+					<div class="icon dots cross-hair"></div>
+				</li>
+				<li class="tank-icon">
+					<h2>Tank</h2>
+					<div class="icon loading-font tank">&#xe001;</div>
+				</li>
+				<li class="round-icon">
+					<h2>Marching Ants</h2>
+					<div class="icon marching-ants"></div>
+				</li>
+				<li>
+					<h2>Gears</h2>
+					<div class="icon loading-font gears">
+						<div>&#xe003;</div>
+						<div>&#xe003;</div>
+						<div>&#xe003;</div>
+						<div>&#xe003;</div>
+					</div>
+				</li>
+			</ul>
+		</article> <!-- closes #strange-holder -->
+		<article id="ddd-holder" class="p3d">
+			<ul>
+				<li class="box-icon">
+					<h2>Box</h2>
+					<div class="icon p3d ddd-box">
+						<div>Lo</div>
+						<div>ad</div>
+						<div>ing</div>
+						<div>...</div>
+					</div>
+				</li>
+				<li class="dice-icon">
+					<h2>Die Roll</h2>
+					<div class="icon p3d ddd-box dice">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</li>
+				<li class="ddd-spinner-icon">
+					<h2>3-D Spinner</h2>
+					<div class="icon p3d ddd-spinner"></div>
+				</li>
+				<li class="ddd-gears-icon">
+					<h3>Gears</h3>
+					<div class="icon p3d ddd-gears">
+						<div class="p3d"></div>
+						<div class="p3d"></div>
+						<div class="p3d"></div>
+					</div>
+				</li>
+				<li class="ddd-flipp-icon">
+					<h3>Flipping</h3>
+					<div class="icon p3d ddd-flipp">
+						<div class="p3d">L</div>
+						<div class="p3d">O</div>
+						<div class="p3d">A</div>
+						<div class="p3d">D</div>
+						<div class="p3d">I</div>
+						<div class="p3d">N</div>
+						<div class="p3d">G</div>
+					</div>
+				</li>
+			</ul>
+		</article> <!-- closes ddd-holder -->
+	</section>	<!-- closes #icon-gallery -->
+</section>	<!-- closes #Gallery -->
+<footer>
+	<h3>Thanks</h3>
+	<ul>
+		<li><a href="http://lea.verou.me/css3patterns/" title="Pattern Gallery">Lea Verou's Pattern Gallery</a></li>
+		<li><a href="http://thenounproject.com/" title="The Noun Project">The Noun Project</a></li>
+		<li><a href="http://www.google.com/webfonts/" title="Google Web Fonts">Google Web Fonts</a></li>
+		<li><a href="http://keyamoon.com/icomoon/app/" title="IcoMoon">IcoMoon</a></li>
+		<li><a href="http://www.colorzilla.com/gradient-editor/" title="Ultimate Gradient Editor">Colorzilla's Ultimate Gradient Editor</a></li>
+	</ul>
+	<p>Copyright 2012 <a href="http://www.alphavega.com" title="alpha vega llc">alpha vega llc</a></p>
+</footer>
+</body>
+</html>

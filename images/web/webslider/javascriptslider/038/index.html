@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0013)about:internet -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<title>前端开发网（HTML6GAME） - html5，flash游戏的分享 - web前端开发资讯.交流站点</title>
+
+<meta name="keywords" content="原创作品,教程,代码,html5游戏,flash游戏,web前端开发,javascript,rpg,网页游戏,手机游戏,程序源码,flash幻灯片,webgame展示,游戏开发" />
+<meta name="description" content="前端开发网（www.html6game.com），专注于html5和flash游戏，为程序员提供web开发教程。另外提供国内一流的flash和js幻灯片，在这里有最近的资讯和最前沿的开发技术！" />
+
+<STYLE>
+#tangshifods UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.dis {
+	DISPLAY: block
+}
+.undis {
+	DISPLAY: none
+}
+#tangshibimg {
+	FILTER: progid:DXImageTransform.Microsoft.Fade ( duration=0.5,overlap=1.0 ); WIDTH: 245px; HEIGHT: 107px
+}
+#tangshibimg IMG {
+	BORDER-BOTTOM: #be6737 1px solid; BORDER-LEFT: #be6737 1px solid; WIDTH: 238px; HEIGHT: 105px; BORDER-TOP: #be6737 1px solid; BORDER-RIGHT: #be6737 1px solid
+}
+#tangshisimg DIV {
+	BORDER-BOTTOM: #be6737 1px solid; BORDER-LEFT: #be6737 1px solid; WIDTH: 60px; MARGIN-BOTTOM: 7px; HEIGHT: 29px; BORDER-TOP: #be6737 1px solid; BORDER-RIGHT: #be6737 1px solid
+}
+#tangshisimg DIV IMG {
+	WIDTH: 60px; HEIGHT: 29px
+}
+#tangshisimg .s {
+	BORDER-BOTTOM: #ff0 1px solid; BORDER-LEFT: #ff0 1px solid; BORDER-TOP: #ff0 1px solid; BORDER-RIGHT: #ff0 1px solid
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+</STYLE>
+</HEAD>
+<BODY>
+
+<div id=left_ggp>
+<div id=left_tonlion>
+<script>
+	function getid(obj)
+	{
+		return document.getElementById(obj);
+	}
+
+	function getNames(obj,name,tij)
+	{	
+		var p = getid(obj);
+		var plist = p.getElementsByTagName(tij);
+		var rlist = new Array();
+		for(i=0;i<plist.length;i++)
+		{
+			if(plist[i].getAttribute("name") == name)
+			{
+				rlist[rlist.length] = plist[i];
+			}
+		}
+		return rlist;
+	}
+
+	function ri(obj)
+	{
+		var p = obj.parentNode.getElementsByTagName("div");
+		for(i=0;i<p.length;i++)
+		{
+			if(obj == p[i])
+			{
+return i;
+			}
+		}
+	}
+
+	function fiterplay(obj,num,t,name)
+	{
+		var fitlist = getNames(obj,name,t);
+		for(i=0;i<fitlist.length;i++)
+		{
+
+			if(i == num)
+			{
+				fitlist[i].className = "dis";
+			}
+			else
+			{
+				fitlist[i].className = "undis";
+			}
+		}
+	}
+
+	function ci(obj)
+	{
+		var p = obj.parentNode.parentNode.getElementsByTagName("div");
+		for(i=0;i<p.length;i++)
+		{
+			if(obj ==p[i])
+			{
+				p[i].className = "s";
+			}
+			else
+			{
+				p[i].className = "";
+			}
+		}
+	}
+
+	function playts(obj,n1)
+	{
+		var p = obj.parentNode.parentNode.getElementsByTagName("img");
+		var bimg = getid(n1);
+		var num = ri(obj);
+		try
+		{
+			with(tangshibimg)
+			{
+				filters[0].Apply();
+				ci(obj);
+				fiterplay(n1,num,"div","f");
+				//fiterplay(n2,num,"table","f");
+				filters[0].play();
+			}
+		}
+		catch(e)
+		{
+				ci(obj);
+				fiterplay(n1,num,"div","f");
+				//fiterplay(n2,num,"table","f");
+		}
+	}
+var n=0;
+function clearAutots() {clearInterval(autoStartts);};
+function setAutots(){autoStartts=setInterval("autots(n)", 3000)}
+function autots()
+{
+	var x = getid("tangshisimg").getElementsByTagName("div");
+	n++;
+	if(n>2)n=0;
+	playts(x[n],"tangshibimg");
+} 
+
+ setAutots();
+</script>
+
+<table border=0 cellSpacing=0 cellPadding=0 width=310>
+  <tbody>
+  <tr>
+    <td width=246 align=middle>
+      <div id=tangshibimg>
+      <div class=dis name="f"><a href="http://www.html6game.com" target=_blank><img src="images/ts_238x105_0315.jpg"></a></div>
+      <div class=undis name="f"><a href="http://www.html6game.com" target=_blank><img src="images/ts_238x105b_0220.jpg"></a></div>
+      <div class=undis name="f"><a href="http://www.html6game.com" target=_blank><img src="images/ts_238x105c_0220.jpg"></a></div></div></td>
+    <td id=tangshisimg vAlign=top width=64 align=left>
+      <div class=s onMouseOver="playts(this,'tangshibimg');clearAutots();" onmouseout=setAutots()>
+      <a href="http://www.html6game.com" target=_blank><img border=0 src="images/ts_60x29_0315.jpg"></a></div>
+      <div onMouseOver="playts(this,'tangshibimg');clearAutots();" onmouseout=setAutots()>
+      <a href="http://www.html6game.com" target=_blank><img border=0 src="images/ts_238x105b_0220.jpg"></a></div>
+      <div style="MARGIN-BOTTOM: 0px" onMouseOver="playts(this,'tangshibimg');clearAutots();"onmouseout=setAutots()>
+      <a href="http://www.html6game.com" target=_blank><img border=0 src="images/ts_238x105c_0220.jpg"></a></div>
+</td></tr></tbody></table></div></div>
+
+</BODY></HTML>

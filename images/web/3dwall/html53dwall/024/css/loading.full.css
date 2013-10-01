@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*	Importer for the Loading Icons:
+
+	File Name:		loading.css
+	FileURL:		http://demo.alphavega.com/css/loading/css/loading.css
+	File Author:	Stephen Giorgi
+	Author email:	stephen.giorgi@alphavega.com | steve@deadlycomputer.com
+	Author URL:		http://www.alphavega.com
+	Description:	The loading file for all the css used in loading-icons.html
+
+ */
+@import url(base.css);
+@import url(icons.css);
+@import url(animate.css);

@@ -1,0 +1,1 @@
+img1=images/01.jpg&img2=images/02.jpg&img3=images/03.jpg&img4=images/04.jpg&img5=images/05.jpg&txt1=“精品悭家”第二期活动——免费请你到蕉叶和中国芳吃饭!&txt2=生活派·封面时尚主角招募&txt3=百合，全方位手机多媒体资讯平台&txt4=订阅精品生活 享超值大礼&txt5=精品生活读者俱乐部 时尚新生活&link1=http://www.html6game.com/&link2=http://www.html6game.com/&link3=http://www.html6game.com/&link4=http://www.html6game.com/&link5=http://www.html6game.com/

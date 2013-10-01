@@ -1,0 +1,147 @@
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 150%; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial,'ËÎÌו',Verdana,sans-serif; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; FONT-SIZE: 12px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+P {
+	MARGIN: 0px
+}
+#FrameH {
+	BACKGROUND: url(global_bg.png) repeat-x
+}
+#FrameH IMG {
+	FLOAT: left
+}
+#FrameH A {
+	COLOR: #e0ffc3; TEXT-DECORATION: none
+}
+#FrameH A:hover {
+	TEXT-DECORATION: underline
+}
+.top-msg {
+	MARGIN: 4px 10px 0px 0px; FONT-FAMILY: 'ËÎÌו',; FLOAT: right; COLOR: #e0ffc3
+}
+.top-msg P {
+	MARGIN: 0px 10px; FLOAT: left; PADDING-TOP: 3px
+}
+.self-mod {
+	FLOAT: left
+}
+.self-mod P {
+	MARGIN: 0px
+}
+.self-start {
+	WIDTH: 5px; BACKGROUND: url(global_bg.png) 0px -33px; HEIGHT: 20px; OVERFLOW: hidden
+}
+.self-end {
+	WIDTH: 5px; BACKGROUND: url(global_bg.png) 0px -33px; HEIGHT: 20px; OVERFLOW: hidden
+}
+.self-end {
+	BACKGROUND-POSITION: -5px -33px
+}
+.self-cont {
+	BACKGROUND: url(global_bg.png) repeat-x 0px -56px; HEIGHT: 20px; OVERFLOW: hidden
+}
+.self-cont B {
+	PADDING-BOTTOM: 0px; MARGIN: 0px -2px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; DISPLAY: inline-block; BACKGROUND: url(global_bg.png) no-repeat 0px -80px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.top-msg P.my-mess {
+	MARGIN-LEFT: 0px
+}
+.top-msg P.my-mess IMG {
+	MARGIN: 3px 6px 0px 0px
+}
+.my-mess .has-mess {
+	PADDING-LEFT: 22px; BACKGROUND: url(icon.gif) no-repeat 0px -98px
+}
+#Banner {
+	BACKGROUND: url(banner.png) #3f8900 no-repeat
+}
+#FrameS {
+	BACKGROUND: url(sidebar_bg.png) #276400 no-repeat center bottom; HEIGHT: 100%
+}
+.sidebar-w {
+	OVERFLOW-X: hidden; OVERFLOW-Y: auto; WIDTH: 100%; HEIGHT: 100%
+}
+.sidebar DIV {
+	BORDER-BOTTOM: #499501 1px solid; BORDER-LEFT: #499501 1px solid; BACKGROUND: url(sidebar_col.png) #f2f6e8 no-repeat; HEIGHT: 35px; OVERFLOW: hidden; BORDER-TOP: #499501 0px solid; BORDER-RIGHT: #499501 1px solid
+}
+.sidebar P {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 34px; PADDING-RIGHT: 0px; BACKGROUND: url(icon.gif) no-repeat 18px 17px; HEIGHT: 24px; COLOR: #360; CURSOR: pointer; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.sidebar P.s-plus {
+	BACKGROUND-POSITION: 18px -5px
+}
+.sidebar P.s-single {
+	BACKGROUND: 0px 50%
+}
+.sidebar SPAN {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 6px
+}
+.sidebar SPAN A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 34px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(icon.gif) no-repeat 26px -31px; COLOR: #306400; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.sidebar SPAN A {
+	
+}
+.sidebar SPAN A.current {
+	COLOR: #de4a02
+}
+#Mid {
+	BACKGROUND: url(mid_bg.gif) repeat-y
+}
+#Mid DIV {
+	BACKGROUND: url(mid_bg.gif) repeat-y
+}
+#Mid DIV {
+	POSITION: absolute; MARGIN-TOP: -47px; WIDTH: 6px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: -8px 0px; HEIGHT: 100px; TOP: 50%; CURSOR: pointer; LEFT: 0px
+}
+#Mid DIV.sub {
+	BACKGROUND-POSITION: -15px 0px
+}
+#Msg {
+	BACKGROUND: url(global_bg.png) repeat-x 0px -100px
+}
+#Msg BODY {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; BACKGROUND: url(icon.gif) no-repeat 10px -47px; COLOR: #326700; PADDING-TOP: 3px
+}
+#Login {
+	TEXT-ALIGN: center; WIDTH: 794px; BACKGROUND: #225304
+}
+.login-head {
+	TEXT-ALIGN: right; COLOR: #a1c48c; PADDING-TOP: 30px
+}
+.login-a {
+	WIDTH: 397px; BACKGROUND: #369; FLOAT: left; HEIGHT: 294px
+}
+.login-b {
+	WIDTH: 397px; BACKGROUND: #369; FLOAT: left; HEIGHT: 294px
+}
+.login-a {
+	BACKGROUND: url(login_bg_1.jpg)
+}
+.login-b {
+	BACKGROUND: url(login_bg_2.jpg)
+}
+.login-bar {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; BACKGROUND: url(login.png) repeat-x 0px -21px; HEIGHT: 32px; COLOR: #fff; CLEAR: both; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+.login-bar INPUT {
+	BORDER-BOTTOM: #1f5a00 1px solid; BORDER-LEFT: #1f5a00 1px solid; WIDTH: 90px; HEIGHT: 18px; VERTICAL-ALIGN: middle; BORDER-TOP: #1f5a00 1px solid; MARGIN-RIGHT: 10px; BORDER-RIGHT: #1f5a00 1px solid; _vertical-align: 0
+}
+.login-bar INPUT.login-btn {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 10px 0px 15px; WIDTH: 68px; BACKGROUND: url(login.png); BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 21px; COLOR: #fff; BORDER-LEFT-WIDTH: 0px
+}
+.login-bar IMG {
+	BORDER-BOTTOM: #1f5a00 1px solid; BORDER-LEFT: #1f5a00 1px solid; MARGIN-LEFT: -8px; VERTICAL-ALIGN: middle; BORDER-TOP: #1f5a00 1px solid; BORDER-RIGHT: #1f5a00 1px solid; _vertical-align: -3px
+}
+.login-bar A {
+	COLOR: #a1c48c
+}
+.login-foot {
+	WIDTH: 794px; BACKGROUND: url(baidu-logo.png) #fff no-repeat 664px 40px; HEIGHT: 96px
+}

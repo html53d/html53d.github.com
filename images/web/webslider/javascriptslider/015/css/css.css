@@ -1,0 +1,46 @@
+body {
+	margin-left: 0px; margin-top: 0px
+}
+#simg TD {
+	FONT-SIZE: 10px; BACKGROUND: url(http://mat1.qq.com/auto/08index/fcnbg.gif) no-repeat; WIDTH: 16px; COLOR: #fff; LINE-HEIGHT: 11px; FONT-FAMILY: Arial; TEXT-ALIGN: center
+}
+#simg {
+	BORDER-RIGHT: #3e3e3e 1px solid; BORDER-TOP: #3e3e3e 1px solid; FILTER: alpha(opacity=80); MARGIN: 182px 0px 0px 258px; BORDER-LEFT: #3e3e3e 1px solid; WIDTH: 82px; BORDER-BOTTOM: #3e3e3e 1px solid; POSITION: absolute; moz-opacity: 0.8; opacity: 0.8
+}
+#simg .s {
+	BACKGROUND: red
+}
+#simg .s IMG {
+	FILTER: #5F6E7C
+}
+#simg TD {
+	CURSOR: pointer
+}
+
+#bimg {
+	FILTER: progid:DXImageTransform.Microsoft.Fade ( duration=0.5,overlap=1.0 ); WIDTH: 340px; HEIGHT: 195px
+}
+#infos {
+	FILTER: progid:DXImageTransform.Microsoft.Fade ( duration=0.5,overlap=1.0 ); WIDTH: 340px; HEIGHT: 20px; TEXT-ALIGN: right
+}
+#infos DIV {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #fff; MARGIN-RIGHT: 21px; PADDING-TOP: 5px
+}
+
+.dis {
+	DISPLAY: block
+}
+.undis {
+	DISPLAY: none; LINE-HEIGHT: 0px; HEIGHT: 0px
+}
+
+
+.linkww TD {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.linkww A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.linkww A:hover {
+	TEXT-DECORATION: underline
+}

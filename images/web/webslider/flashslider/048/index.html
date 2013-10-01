@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN">
+<!-- saved from url=(0013)about:internet -->
+<html>
+	<head>
+		<title>Flash Slideshow</title>
+		<script type="text/javascript" src="swfobject.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+	body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+    </style>
+	</head>
+	<body>
+		<div id="flashcontent" style="border: 7px solid #666666; width: 435px; height: 300px; background-color: #ffffff;">
+			<p>It requires Macromedia Flash. <a href="http://www.macromedia.com/go/getflashplayer" >Click here</a> to go to Macromedia download page. </p>
+		</div>
+		<script type="text/javascript">
+			var so = new SWFObject("slideshow.swf", "gallery", "435", "300", "6", "#ffffff");
+			so.addVariable("file", "slideshow.xml")
+			so.write("flashcontent");
+		</script>
+	</body>
+</html>

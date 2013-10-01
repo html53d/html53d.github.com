@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+	
+	<config 
+		enable_auto_play="true"
+		auto_play_duration="2"
+		auto_align="true"
+		folder="images/"
+		tween_duration="0.5"
+		photo_border_size="0"
+		photo_border_color="0xFFFFFF"
+		photo_alpha="false"
+		x_spacing="120"
+		y_spacing="0"
+		side_photo_count="3">
+	</config>
+	
+	<photo>
+		<filename>300x300_324_green_home.jpg</filename>
+		<description>Green Home is a free template designed by light green color header graphics based on white color background.</description>
+		<url>http://www.templatemo.com/preview/templatemo_324_green_home</url>
+		<target>_blank</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_327_pink_round.jpg</filename>
+		<description>Pink Round is a free template with beautiful round corners using red little gradient background.</description>
+		<url>http://www.templatemo.com/preview/templatemo_327_pink_round</url>
+		<target>_parent</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_331_magic_color.jpg</filename>
+		<description>Magic Color is a light template using colorful blue, green, white background. Main menu is stylish using orange candy bar.</description>
+		<url>http://www.templatemo.com/preview/templatemo_331_magic_color</url>
+		<target>_blank</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_335_black_wall.jpg</filename>
+		<description>Black Wall is a free website template using black wooden strips as background image.</description>
+		<url>http://www.templatemo.com/preview/templatemo_335_black_wall</url>
+		<target>_parent</target>
+	</photo> 
+	
+	<photo>
+		<filename>300x300_338_grand_mini.jpg</filename>
+		<description>Grand Mini Theme is decorated with beautiful menu icons. This is one long page layout for all pages based on dark blue background.</description>
+		<url>http://www.templatemo.com/preview/templatemo_338_grand_mini</url>
+		<target>_self</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_340_purple_ray.jpg</filename>
+		<description>Purple Ray home page is divided into 4 columns and it is integrated with Nivo slider.</description>
+		<url>http://www.templatemo.com/preview/templatemo_340_purple_ray</url>
+		<target>_blank</target>
+	</photo> 
+	
+	<photo>
+		<filename>300x300_343_green_jelly.jpg</filename>
+		<description>Green Jelly homepage is beautifully integrated with jQuery Nivo Slider. Content area contains 2-column and 4-column structures.</description>
+		<url>http://www.templatemo.com/preview/templatemo_343_green_jelly</url>
+		<target>_self</target>
+	</photo> 
+	
+	<photo>
+		<filename>300x300_344_newspaper.jpg</filename>
+		<description>Newspaper theme is based on black, white, and red colors. Main menu includes drop down sub-menus.</description>
+		<url>http://www.templatemo.com/preview/templatemo_344_newspaper</url>
+		<target>_blank</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_346_accordion.jpg</filename>
+		<description>Accordion Theme is a free website layout for any purpose. Homepage features jQuery accordion slider.</description>
+		<url>http://www.templatemo.com/preview/templatemo_346_accordion</url>
+		<target>_parent</target>
+	</photo>
+	
+	<photo>
+		<filename>300x300_347_dark_pro.jpg</filename>
+		<description>Dark Pro homepage features an image slider using Lof JSliderNews and 4-column content sections.</description>
+		<url>http://www.templatemo.com/preview/templatemo_347_dark_pro</url>
+		<target>_blank</target>
+	</photo>
+
+</photos>

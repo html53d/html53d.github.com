@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+html {margin: 0; padding: 0; width: 100%; overflow-x: visible; overflow-y: scroll; font-size: 12px;}
+body { padding: 0; margin: 0 auto; width: 100%; height:auto; color: #666; font-size: 12px; font-family:"Microsoft YaHei", 'Simsun','Arial', 'sans-serif'; line-height: 20px; font-weight: normal;}
+* { margin: 0px; padding: 0px;}
+li{list-style: none}
+form{margin: 0px}
+img{border: 0px}
+.clear{clear:both}
+div,ul,li,dd,textarea{font-size: 12px; font-family:"Microsoft YaHei", 'Simsun','Arial', 'sans-serif'; color: #666; line-height: 20px}
+
+a:link,a:active,a:visited{TEXT-DECORATION:none; Color:#000}
+a:hover {Color:#00A9E0; text-decoration: none}
+
+a.de00:link,a.de00:active,a.de00:visited{TEXT-DECORATION:none; Color:#00A9E0}
+a.de00:hover {Color:#000; text-decoration: none}
+
+a.de01:link,a.de01:active,a.de01:visited{TEXT-DECORATION:none; Color:#666}
+a.de01:hover {Color:#00A9E0; text-decoration: none}
+
+a.de02:link,a.de02:active,a.de02:visited{TEXT-DECORATION:none; Color:#fff}
+a.de02:hover {Color:#fff; text-decoration: underline}
+
+a.de03:link,a.de03:active,a.de03:visited{TEXT-DECORATION:none; Color:#000}
+a.de03:hover {Color:#00A9E0; text-decoration: none}
+
+a.de04:link,a.de04:active,a.de04:visited{TEXT-DECORATION:none; Color:#2d2d2d}
+a.de04:hover {Color:#00A9E0; text-decoration: none}

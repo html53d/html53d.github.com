@@ -1,0 +1,198 @@
+/* ======================================================================== */
+/* Slides																*/
+/* ======================================================================== */
+
+.f3d_slide {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	color: #bbb;
+    position: relative;
+    margin: 0;
+}
+
+.f3d_details h1 {
+	font-size:65px;
+	line-height: 0.8em;
+	color: #fff;
+	margin: 0 0 5px 0;
+	padding: 0 0 3px 0;
+	border-bottom:1px solid #fff;
+	text-shadow: 3px 3px 16px rgba(0, 0, 0, 0.9);
+}
+
+.f3d_details p {
+	font-size:25px;
+	line-height: 1em;
+	letter-spacing:0em;
+	text-transform:uppercase;
+	color: #999;
+	margin: 0 0 10px 0;
+	text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.f3d_details p.normal {
+	font-size:16px;
+	text-transform:none;
+	line-height: 1em;
+	letter-spacing:0em;
+	color: #888;
+	text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.f3d_slide strong {
+    color: #CC9900;
+}
+
+.f3d_slide img {border: none}
+
+
+/* ======================================================================== */
+/* Preloader																*/
+/* ======================================================================== */
+
+.f3d_preloader {
+	color:#777;
+	background:url(scheme/loader.gif) no-repeat center center;
+}
+
+
+/* ======================================================================== */
+/* Background														*/
+/* ======================================================================== */
+
+.f3d_bg_top {
+	background:url(scheme/f3d_bg_top.png) no-repeat top center;
+	height: 30px;
+}
+
+.f3d_bg_static {
+	background:url(scheme/f3d_bg_static.png) no-repeat center center;
+}
+
+.f3d_bg_active {
+	background:url(scheme/f3d_bg_active_text.png) no-repeat center center;
+}
+
+.f3d_bg_active_notext {
+	background:url(scheme/f3d_bg_active.png) no-repeat center center;
+}
+
+
+/* ======================================================================== */
+/* Controls																	*/
+/* ======================================================================== */
+
+.f3d_controls {
+	background:url(scheme/f3d_controls.png) no-repeat bottom center;
+	text-align:center;
+	width:100%;
+	position: absolute;
+	bottom: 1px;
+	list-style:none;
+	height: 30px;
+	padding-top:30px;
+	margin: 0;
+}
+
+.f3d_controls li {
+	position:relative;
+	display: inline-block;
+	margin: 0 0 0 15px;
+	padding:0;
+	width:20px;
+	height:20px;
+	cursor: pointer;
+}
+
+.f3d_controls li:first-child {
+	margin-left:0;
+}
+
+/* ======================================================================== */
+/* Controls ::: PLAY button													*/
+/* ======================================================================== */
+.f3d_controls #f3d_play{
+	background:url(scheme/f3d_play.png) no-repeat;
+}
+
+/* ======================================================================== */
+/* Controls ::: PAUSE button												*/
+/* ======================================================================== */
+.f3d_controls #f3d_pause{
+	background:url(scheme/f3d_pause.png) no-repeat;
+}
+
+/* ======================================================================== */
+/* Controls ::: PREVIOUS button												*/
+/* ======================================================================== */
+.f3d_controls #f3d_prev{
+	background:url(scheme/f3d_prev.png) no-repeat;
+}
+
+/* ======================================================================== */
+/* Controls ::: NEXT button													*/
+/* ======================================================================== */
+.f3d_controls #f3d_next{
+	background:url(scheme/f3d_next.png) no-repeat;
+}
+
+/* ======================================================================== */
+/* Controls ::: PAGER anchor												*/
+/* ======================================================================== */
+.f3d_controls #f3d_pager {
+	width: auto;
+}
+
+.f3d_controls #f3d_pager span{
+	background:url(scheme/f3d_pager.png) no-repeat;
+	display: inline-block;
+	width:20px;
+	height:20px;
+}
+.f3d_controls #f3d_pager span.activeSlide {
+	background:url(scheme/f3d_pager_active.png) no-repeat;
+	color: #222;
+}
+
+/* ======================================================================== */
+/* Controls ::: COLOR CHANGER												*/
+/* ======================================================================== */
+.f3d_controls #f3d_color {
+	width: auto;
+}
+
+.f3d_controls #f3d_color span{
+	float: left;
+	position:relative;
+	top: 6px;
+	display: inline-block;
+	background: #000;
+	border: 1px solid #000;
+	width: 12px;
+	height:6px;
+}
+
+.f3d_controls #f3d_color span.activeColor {
+	border-color: #aaa;
+}
+
+
+/* ======================================================================== */
+/* Thumbs																	*/
+/* ======================================================================== */
+
+.f3d_thumb {
+	background:url(scheme/f3d_thumb.png) no-repeat top left;
+	display:none; width:100px; height:106px; overflow:hidden;
+	position: absolute;
+	top:0; left: 0;
+}
+
+.f3d_thumb div{
+	border:1px solid #000;
+	background: #000;
+	position: absolute;
+	overflow:hidden;
+	margin: 20px 14px;
+	width:70px;
+	height:70px;
+}

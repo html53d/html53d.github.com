@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<main speed="2.5">
+	  <img imgRoute="images/img1.jpg" />
+	  <img imgRoute="images/img2.jpg" />
+	  <img imgRoute="images/img3.jpg" />
+      <img imgRoute="images/img4.jpg" />
+      <img imgRoute="images/img5.jpg" />
+      <img imgRoute="images/img6.jpg" />	
+</main>
